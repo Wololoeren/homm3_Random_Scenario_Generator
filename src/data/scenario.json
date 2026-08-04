@@ -1,0 +1,1754 @@
+{
+  "columns": [
+    {
+      "id": "buildings",
+      "column": "A",
+      "label": "Starting Buildings",
+      "entries": [
+        {
+          "id": "bronze-dwelling",
+          "text": "Bronze Dwelling"
+        },
+        {
+          "id": "bronze-dwelling-city-hall",
+          "text": "Bronze Dwelling + City Hall"
+        },
+        {
+          "id": "bronze-dwelling-citadel",
+          "text": "Bronze Dwelling + Citadel"
+        },
+        {
+          "id": "bronze-dwelling-silver-dwelling",
+          "text": "Bronze Dwelling + Silver Dwelling"
+        },
+        {
+          "id": "bronze-dwelling-camp",
+          "text": "Bronze Dwelling + Camp"
+        },
+        {
+          "id": "bronze-dwelling-workshop",
+          "text": "Bronze Dwelling + Workshop"
+        },
+        {
+          "id": "bronze-dwelling-workshop-camp",
+          "text": "Bronze Dwelling + Workshop + Camp"
+        },
+        {
+          "id": "city-hall",
+          "text": "City Hall"
+        },
+        {
+          "id": "city-hall-citadel",
+          "text": "City Hall + Citadel"
+        },
+        {
+          "id": "city-hall-camp",
+          "text": "City Hall + Camp"
+        },
+        {
+          "id": "city-hall-workshop",
+          "text": "City Hall + Workshop"
+        },
+        {
+          "id": "city-hall-bronze-dwelling-camp",
+          "text": "City Hall + Bronze Dwelling + Camp"
+        },
+        {
+          "id": "workshop-camp",
+          "text": "Workshop + Camp"
+        },
+        {
+          "id": "silver-dwelling",
+          "text": "Silver Dwelling"
+        },
+        {
+          "id": "citadel",
+          "text": "Citadel"
+        },
+        {
+          "id": "bronze-dwelling-camp-or-workshop",
+          "text": "Bronze Dwelling + Camp OR Workshop"
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "column": "B",
+      "label": "Starting Resources",
+      "entries": [
+        {
+          "id": "nothing",
+          "text": "Nothing"
+        },
+        {
+          "id": "5g",
+          "text": "5G"
+        },
+        {
+          "id": "5g-3bm",
+          "text": "5G+3BM"
+        },
+        {
+          "id": "5g-3bm-1v",
+          "text": "5G+3BM+1V"
+        },
+        {
+          "id": "5g-6bm",
+          "text": "5G+6BM"
+        },
+        {
+          "id": "5g-6bm-1v",
+          "text": "5G+6BM+1V"
+        },
+        {
+          "id": "10g",
+          "text": "10G"
+        },
+        {
+          "id": "10g-3bm",
+          "text": "10G+3BM"
+        },
+        {
+          "id": "10g-3bm-1v",
+          "text": "10G+3BM+1V"
+        },
+        {
+          "id": "12g",
+          "text": "12G"
+        },
+        {
+          "id": "10g-6bm",
+          "text": "10G+6BM"
+        },
+        {
+          "id": "10g-6bm-1v",
+          "text": "10G+6BM+1V"
+        },
+        {
+          "id": "15g",
+          "text": "15G"
+        },
+        {
+          "id": "10bm",
+          "text": "10BM"
+        },
+        {
+          "id": "3v",
+          "text": "3V"
+        },
+        {
+          "id": "10g-4bm",
+          "text": "10G+4BM"
+        },
+        {
+          "id": "8g-5bm-1v",
+          "text": "8G+5BM+1V"
+        },
+        {
+          "id": "4g-2bm-1v",
+          "text": "4G+2BM+1V"
+        },
+        {
+          "id": "2-resource-dice",
+          "text": "2 resource dice"
+        },
+        {
+          "id": "3-resource-dice",
+          "text": "3 resource dice"
+        },
+        {
+          "id": "4-resource-dice",
+          "text": "4 resource dice"
+        },
+        {
+          "id": "roll-2-resource-dice-and-resolve-one-twice",
+          "text": "Roll 2 resource dice and resolve one, twice"
+        },
+        {
+          "id": "15g-and-free-trade-post-before-you-start-you",
+          "text": "15G and free trade-post before you start your first turn"
+        }
+      ]
+    },
+    {
+      "id": "army",
+      "column": "C",
+      "label": "Starting Army",
+      "entries": [
+        {
+          "id": "t1p-t2p",
+          "text": "T1P + T2P"
+        },
+        {
+          "id": "t1f-t2f-t3f",
+          "text": "T1F + T2F + T3F"
+        },
+        {
+          "id": "choose-2-bronze-packed",
+          "text": "Choose 2 Bronze packed"
+        },
+        {
+          "id": "t1p-t2p-t3f",
+          "text": "T1P + T2P + T3F"
+        },
+        {
+          "id": "t1f-t2f-t3p",
+          "text": "T1F + T2F + T3P"
+        },
+        {
+          "id": "t1p-t4f",
+          "text": "T1P + T4F"
+        },
+        {
+          "id": "t1f-t2f-t3p-2",
+          "text": "T1F + T2F + T3P"
+        },
+        {
+          "id": "t1p-t2f-t3f",
+          "text": "T1P + T2F + T3F"
+        },
+        {
+          "id": "a-random-neutral-bronze-and-silver-unit",
+          "text": "A random neutral bronze and silver unit"
+        },
+        {
+          "id": "3-random-neutral-bronze-units",
+          "text": "3 Random Neutral Bronze Units"
+        },
+        {
+          "id": "search-2-neutral-bronze-units-twice",
+          "text": "Search (2) Neutral bronze units twice"
+        },
+        {
+          "id": "t1p-st-t2p",
+          "text": "T1P+st + T2P"
+        },
+        {
+          "id": "2-x-neutral-bronze-select-one-which-gains-a",
+          "text": "2 x Neutral bronze, select one which gains a stack token"
+        },
+        {
+          "id": "t1p-st",
+          "text": "T1P+st"
+        }
+      ]
+    },
+    {
+      "id": "victoryCoop",
+      "column": "D",
+      "label": "Victory Conditions (Coop)",
+      "entries": [
+        {
+          "id": "each-player-must-defeat-the-level-7-field-on",
+          "text": "Each player must defeat the level 7 field on the center tile"
+        },
+        {
+          "id": "defeat-all-fields-black-cubes-from-roman-nu",
+          "text": "Defeat all fields (Black cubes from roman numerals cannot be removed)"
+        },
+        {
+          "id": "defeat-enemy-stack-on-center-tile-see-stack",
+          "text": "Defeat enemy stack on center tile. See Stack tab for details"
+        },
+        {
+          "id": "defeat-1-per-player-1-random-unused-facti",
+          "text": "Defeat (1 per player +1) random unused factions (Tier 3-7 on packed) on the center tile"
+        },
+        {
+          "id": "each-player-must-defeat-neutral-hydra-easy",
+          "text": "Each player must defeat Neutral-Hydra(easy) + Rust Dragon (easy) + Crystal Dragon(normal) + Azure Dragon(hard) + Azure Dragon(Impossible) at the center tile"
+        },
+        {
+          "id": "defeat-the-reinforced-enemy-stack-on-center",
+          "text": "Defeat the reinforced enemy stack on center tile. See Stack tab for details"
+        },
+        {
+          "id": "defeat-the-resurrecting-enemy-stack-on-the-c",
+          "text": "Defeat the resurrecting enemy stack on the center tile. See Stack tab for details"
+        },
+        {
+          "id": "each-player-must-bring-back-a-grail-from-the",
+          "text": "Each player must bring back a grail from the level 7 field on the center tile."
+        },
+        {
+          "id": "roll-one-attack-dice-at-the-end-of-the-round",
+          "text": "Roll one attack dice at the end of the round (up to last round). \n(+1): Spawn an AI neutral unit army\n(0): Spawn an AI neutral unit army if no AI armies are on the map.\n(-1): Nothing happens.\nEliminate all AI armies (this victory condition removes the time limit)\nSee AI-army and AI tab for details"
+        },
+        {
+          "id": "roll-one-attack-dice-at-the-end-of-the-round-2",
+          "text": "Roll one attack dice at the end of the round (up to last round). \n(+1): Spawn an unused faction AI army \n(0): Spawn an unused faction AI army if no AI armies are on the map.\n(-1): Nothing happens.\nEliminate all AI armies (this victory condition removes the time limit)\nSee AI-army and AI tab for details"
+        },
+        {
+          "id": "at-the-end-of-round-4-7-10-12-14-on-hard",
+          "text": "At the end of round 4,7,10,12 (+14 on hard, +15 on impossible): Spawn an unused faction AI army at the center tile.\nEliminate all AI armies (this victory condition removes the time limit)\nSee AI-army and AI tab for details"
+        },
+        {
+          "id": "at-the-end-of-round-4-7-10-12-14-on-hard-2",
+          "text": "At the end of round 4,7,10,12 (+14 on hard, +15 on impossible): Spawn an AI neutral unit army at the center tile. \nEliminate all AI armies (this victory condition removes the time limit)\nSee AI-army and AI tab for details"
+        },
+        {
+          "id": "each-player-must-defeat-azure-dragon-with-a",
+          "text": "Each player must defeat Azure Dragon with a stack-token at the center tile. The dragon starts with 9 damage tokens on easy, 6 on normal, 3 on hard."
+        },
+        {
+          "id": "all-blocked-fields-are-replaced-with-creatur",
+          "text": "All blocked fields are replaced with creature banks, Creature banks on center-tiles are replaced with a new one when defeated. defeat 4 creature banks per player to win."
+        }
+      ]
+    },
+    {
+      "id": "timedEvents",
+      "column": "E",
+      "label": "Timed Events",
+      "entries": [
+        {
+          "id": "remove-black-cubes-from-waterwheel-and-windm",
+          "text": "Remove black cubes from waterwheel and windmill at round 4 and 8"
+        },
+        {
+          "id": "remove-black-cubes-from-starting-tile-at-rou",
+          "text": "Remove black cubes from starting tile at round 4 and 8"
+        },
+        {
+          "id": "gain-an-extra-movement-for-your-main-hero-on",
+          "text": "Gain an extra movement for your main hero on round 3, 6 and 9"
+        },
+        {
+          "id": "decrease-your-hero-level-by-1-2-steps-at-t",
+          "text": "Decrease your hero level by 1 (2 steps) at the beginning of round 7"
+        },
+        {
+          "id": "lose-a-movement-for-your-main-hero-on-round",
+          "text": "Lose a movement for your main hero on round 3, 6 and 9"
+        },
+        {
+          "id": "remove-all-black-cubes-from-starting-tiles-a",
+          "text": "Remove all black cubes from starting tiles at round 3, 6 and 9"
+        },
+        {
+          "id": "remove-all-black-cubes-from-far-tiles-at-rou",
+          "text": "Remove all black cubes from far tiles at round 3, 6 and 9"
+        },
+        {
+          "id": "each-player-is-attacked-at-the-end-of-their",
+          "text": "Each player is attacked at the end of their turn on round 4(2xB), 7(2xS), 10(2xG) and 13(2xA). (The fights cost no MP, and you cannot retreat.)"
+        },
+        {
+          "id": "shuffle-the-neutral-units-discard-piles-into",
+          "text": "Shuffle the neutral units discard piles into their decks at the beginning of round 5 and 10."
+        },
+        {
+          "id": "gain-your-gold-income-on-round-5-bm-on-roun",
+          "text": "Gain your gold income on round 5, BM on round 7 and V on round 9"
+        },
+        {
+          "id": "players-may-add-a-random-stack-token-to-a-pa",
+          "text": "Players may add a random stack token to a packed Bronze unit on round 5 and 10."
+        },
+        {
+          "id": "each-player-draws-a-pandora-s-box-card-at-th",
+          "text": "Each player draws a Pandora's Box card at the beginning of round 4."
+        },
+        {
+          "id": "each-player-draws-a-pandora-s-box-card-at-th-2",
+          "text": "Each player draws a Pandora's Box card at the beginning of round 6."
+        },
+        {
+          "id": "each-player-draws-a-pandora-s-box-card-at-th-3",
+          "text": "Each player draws a Pandora's Box card at the beginning of round 8."
+        },
+        {
+          "id": "each-player-gains-an-empowered-ability-token",
+          "text": "Each player gains an Empowered Ability Token on round 4."
+        },
+        {
+          "id": "each-player-gains-an-empowered-ability-token-2",
+          "text": "Each player gains an Empowered Ability Token on round 6."
+        },
+        {
+          "id": "each-player-gains-an-empowered-ability-token-3",
+          "text": "Each player gains an Empowered Ability Token on round 8."
+        }
+      ]
+    },
+    {
+      "id": "obelisk",
+      "column": "F",
+      "label": "Obelisk Reward",
+      "entries": [
+        {
+          "id": "4g-2bm-1v",
+          "text": "4G+2BM+1V"
+        },
+        {
+          "id": "resolve-1-treasure-dice",
+          "text": "Resolve 1 treasure dice"
+        },
+        {
+          "id": "resolve-1-resource-dice",
+          "text": "Resolve 1 resource dice"
+        },
+        {
+          "id": "roll-1-treasure-and-1-resource-dice-resolv",
+          "text": "Roll 1 treasure and 1 resource -dice, resolve 1"
+        },
+        {
+          "id": "search-2-artifact-deck",
+          "text": "Search (2) artifact deck"
+        },
+        {
+          "id": "1-experience-1-step",
+          "text": "1 experience (1 step)"
+        },
+        {
+          "id": "hero-gains-1-mp",
+          "text": "Hero gains 1 MP"
+        },
+        {
+          "id": "hero-gains-2-mp",
+          "text": "Hero gains 2 MP."
+        },
+        {
+          "id": "draw-2-cards-from-your-deck",
+          "text": "Draw 2 cards from your deck"
+        },
+        {
+          "id": "gain-positive-morale-twice",
+          "text": "Gain positive morale twice"
+        },
+        {
+          "id": "search-2-ability-deck",
+          "text": "Search (2) ability deck"
+        },
+        {
+          "id": "draw-1-artifact-you-may-immediately-give-it",
+          "text": "Draw 1 artifact you may immediately give it to any player."
+        },
+        {
+          "id": "change-astrologers-card-immediately",
+          "text": "Change Astrologers card immediately."
+        },
+        {
+          "id": "roll-a-resource-dice-and-gain-1-step-of-the",
+          "text": "Roll a resource dice and gain 1 step of the result as income (Only for the first player to visit)"
+        },
+        {
+          "id": "draw-3-neutral-from-any-decks-which-you-have",
+          "text": "Draw 3 neutral from any decks which you have a corresponding dwelling, keep the one with the lowest gold cost"
+        },
+        {
+          "id": "choose-a-reward-from-an-adjacent-visitable-f",
+          "text": "Choose a reward from an adjacent visitable field."
+        },
+        {
+          "id": "nothing",
+          "text": "Nothing."
+        },
+        {
+          "id": "draw-an-event-card",
+          "text": "Draw an event card."
+        },
+        {
+          "id": "pay-5g-to-draw-a-pandora-s-box-card",
+          "text": "Pay 5G to draw a Pandora's Box card."
+        },
+        {
+          "id": "gain-an-empowered-ability-token",
+          "text": "Gain an Empowered Ability token."
+        },
+        {
+          "id": "draw-1-neutral-from-any-decks-which-you-have",
+          "text": "Draw 1 neutral from any decks which you have a corresponding dwelling and add it to your army, if the neutral unit has a cost of less than 9G put a stack token on it."
+        }
+      ]
+    },
+    {
+      "id": "positive",
+      "column": "G",
+      "label": "Positive Condition",
+      "entries": [
+        {
+          "id": "field-that-generate-bm-give-2-steps-on-the-i",
+          "text": "Field that generate BM give 2 steps on the income track instead of 1"
+        },
+        {
+          "id": "field-that-generate-gold-give-2-steps-on-the",
+          "text": "Field that generate gold give 2 steps on the income track instead of 1"
+        },
+        {
+          "id": "players-may-freely-exchange-valuables",
+          "text": "Players may freely exchange valuables"
+        },
+        {
+          "id": "players-may-freely-exchange-building-materia",
+          "text": "Players may freely exchange building materials"
+        },
+        {
+          "id": "draw-2-instead-of-1-astrologers-card-and-kee",
+          "text": "Draw 2 instead of 1 astrologers card and keep both active for the two rounds."
+        },
+        {
+          "id": "empty-field-are-not-empty-you-must-draw-and",
+          "text": "Empty field, are not empty you must draw and resolve 1 adventures card (from the battlefield exp), ignoring the basic reward"
+        },
+        {
+          "id": "start-with-a-secondary-hero",
+          "text": "Start with a secondary hero"
+        },
+        {
+          "id": "empty-fields-count-as-stables",
+          "text": "Empty fields count as stables"
+        },
+        {
+          "id": "blocked-fields-count-as-stables",
+          "text": "Blocked fields count as stables"
+        },
+        {
+          "id": "players-may-sell-bronze-units-for-their-purc",
+          "text": "Players may sell bronze-units for their purchasing price once gold dwelling are unlocked"
+        },
+        {
+          "id": "hand-limit-is-increased-by-1",
+          "text": "Hand limit is increased by 1"
+        },
+        {
+          "id": "expert-limit-is-increased-by-1",
+          "text": "Expert limit is increased by 1"
+        },
+        {
+          "id": "each-time-a-spell-card-other-than-magic-arro",
+          "text": "Each time a spell-card other than magic-arrow is used you may remove it instead of discarding"
+        },
+        {
+          "id": "all-search-action-gain-1",
+          "text": "All \"search\"-action gain +1"
+        },
+        {
+          "id": "at-the-start-of-the-game-swap-two-stat-cards",
+          "text": "At the start of the game swap two stat-cards for any other stat-cards."
+        },
+        {
+          "id": "players-may-freely-exchange-artifacts-from-t",
+          "text": "Players may freely exchange artifacts from their hands."
+        },
+        {
+          "id": "players-may-freely-exchange-spells-from-thei",
+          "text": "Players may freely exchange spells from their hands. (except MA)"
+        },
+        {
+          "id": "spell-limit-per-round-is-2",
+          "text": "Spell limit per round is 2"
+        },
+        {
+          "id": "all-spells-have-their-power-increased-by-1",
+          "text": "All spells have their power increased by 1"
+        },
+        {
+          "id": "expert-abilities-do-not-require-expert-token",
+          "text": "Expert abilities do not require expert token"
+        },
+        {
+          "id": "level-4-players-can-cast-dimentional-door-at",
+          "text": "Level 4 players can cast dimentional door at the cost of an expert-token once per round."
+        },
+        {
+          "id": "at-the-start-of-the-game-before-the-first-ha",
+          "text": "At the start of the game before the first hand is drawn you may remove your starting ability to Search (3) the ability-deck"
+        },
+        {
+          "id": "at-the-start-of-the-game-before-the-first-ha-2",
+          "text": "At the start of the game before the first hand is drawn you may remove a starting MA to Search (3) the Spell-deck"
+        },
+        {
+          "id": "the-immediate-payout-of-field-that-increase",
+          "text": "The immediate payout of field that increase income are doubled."
+        },
+        {
+          "id": "extending-combat-no-longer-cost-any-mp",
+          "text": "Extending Combat no longer cost any MP"
+        },
+        {
+          "id": "you-may-spend-an-expert-token-to-reroll-any",
+          "text": "You may spend an expert token to reroll any one dice."
+        },
+        {
+          "id": "players-may-have-2-permanent-cards",
+          "text": "Players may have 2 permanent cards."
+        },
+        {
+          "id": "players-may-pay-the-reinforcement-cost-of-a",
+          "text": "Players may pay the reinforcement cost of a bronze pack unit to place a stack token, of their choice, on it."
+        },
+        {
+          "id": "players-may-pay-the-reinforcement-cost-of-an",
+          "text": "Players may pay the reinforcement cost of any pack unit to place a random stack token on it."
+        },
+        {
+          "id": "players-may-have-1-additional-permanent-card",
+          "text": "Players may have 1 additional permanent card."
+        },
+        {
+          "id": "build-your-camp-or-workshop-for-free-when-vi",
+          "text": "Build your Camp or Workshop for free when visiting an obelisk"
+        },
+        {
+          "id": "players-start-with-an-empowered-ability-toke",
+          "text": "Players start with an Empowered Ability Token."
+        },
+        {
+          "id": "players-start-by-drawing-a-pandora-s-box-car",
+          "text": "Players start by drawing a Pandora's Box card."
+        }
+      ]
+    },
+    {
+      "id": "neutral",
+      "column": "H",
+      "label": "Neutral Condition",
+      "entries": [
+        {
+          "id": "morale-stacks-each-positive-token-works-as",
+          "text": "Morale stacks, each Positive token works as normal, each negative token reduce your hand size by 1."
+        },
+        {
+          "id": "each-player-gets-an-extra-far-tile-to-place",
+          "text": "Each player gets an extra far-tile to place."
+        },
+        {
+          "id": "after-combat-if-any-of-your-units-were-flip",
+          "text": "After combat, if any of your units were flipped or killed decrease morale by 1 otherwise increase morale by 1."
+        },
+        {
+          "id": "at-the-start-of-each-combat-place-a-terrain",
+          "text": "At the start of each combat, place a terrain token randomly (use attack-dice) on the centerline (it blocks 2 adjacent spaces on the basis battle field)"
+        },
+        {
+          "id": "every-unit-deals-at-least-1-damage-during-an",
+          "text": "Every unit deals at least 1 damage during an attack"
+        },
+        {
+          "id": "use-the-morale-cards-from-the-battlefield-ex",
+          "text": "Use the morale cards from the Battlefield expansion instead of the morale tokens."
+        },
+        {
+          "id": "players-don-t-shuffle-their-discard-pile-whe",
+          "text": "Players don't shuffle their discard pile when deck is empty (just flip the discard pile over)."
+        },
+        {
+          "id": "add-one-attack-die-to-the-level-of-neutral-u",
+          "text": "Add one attack die to the level of neutral units when attacking."
+        },
+        {
+          "id": "all-units-have-1-retaliation",
+          "text": "All units have -1 retaliation."
+        },
+        {
+          "id": "all-units-have-1-retaliation-2",
+          "text": "All units have +1 retaliation."
+        },
+        {
+          "id": "retaliation-uses-2-attack-dice",
+          "text": "Retaliation uses 2 attack dice."
+        },
+        {
+          "id": "unit-which-only-uses-1-attack-dice-uses-2-in",
+          "text": "Unit which only uses 1 attack dice uses 2 instead and resolves the highest."
+        },
+        {
+          "id": "unit-which-only-uses-1-attack-dice-uses-2-in-2",
+          "text": "Unit which only uses 1 attack dice uses 2 instead and resolves the Lowest."
+        },
+        {
+          "id": "unit-which-only-uses-1-attack-dice-uses-2-in-3",
+          "text": "Unit which only uses 1 attack dice uses 2 instead and resolve both."
+        },
+        {
+          "id": "players-start-with-a-free-ballista",
+          "text": "Players start with a free Ballista"
+        },
+        {
+          "id": "players-start-with-a-free-first-aid-tent",
+          "text": "Players start with a free First Aid Tent"
+        },
+        {
+          "id": "players-start-with-a-free-ammo-cart",
+          "text": "Players start with a free Ammo-cart"
+        },
+        {
+          "id": "players-start-with-a-free-cannon",
+          "text": "Players start with a free Cannon"
+        },
+        {
+          "id": "neutral-tier-1-units-gain-a-random-stack-tok",
+          "text": "Neutral Tier 1 units gain a random stack token."
+        }
+      ]
+    },
+    {
+      "id": "negative",
+      "column": "I",
+      "label": "Negative Condition",
+      "entries": [
+        {
+          "id": "players-must-find-3-obelisks-to-reveal-cente",
+          "text": "Players must find 3 Obelisks to reveal center tile (make sure 3 obelisks tiles are used)"
+        },
+        {
+          "id": "each-player-must-pay-10-gold-to-reveal-cente",
+          "text": "Each player must pay 10 gold to reveal center tile"
+        },
+        {
+          "id": "players-must-pay-a-total-of-10g-6bm-2v-to-re",
+          "text": "Players must pay a total of 10G+6BM+2V to reveal center tile"
+        },
+        {
+          "id": "no-secondary-heroes",
+          "text": "No secondary heroes!"
+        },
+        {
+          "id": "citadel-is-unavailable-return-cost-to-playe",
+          "text": "Citadel is unavailable (return cost to player if it is a starting building)"
+        },
+        {
+          "id": "neutral-units-have-1-attack-on-retaliation",
+          "text": "Neutral units have +1 attack on retaliation attacks"
+        },
+        {
+          "id": "neutral-units-have-1-defence-when-being-ret",
+          "text": "Neutral units have +1 defence when being retaliated"
+        },
+        {
+          "id": "if-a-hero-is-between-levels-then-all-enemies",
+          "text": "If a hero is between levels then all enemies have +1 level"
+        },
+        {
+          "id": "hand-limit-is-decreased-by-1",
+          "text": "Hand limit is decreased by 1"
+        },
+        {
+          "id": "if-you-have-negative-morale-increase-enemy-l",
+          "text": "If you have negative morale increase enemy level by 1"
+        },
+        {
+          "id": "heroes-start-with-a-1-movement-and-negative",
+          "text": "Heroes start with a -1 movement and negative morale"
+        },
+        {
+          "id": "retreat-cost-5-gold",
+          "text": "Retreat cost 5 gold."
+        },
+        {
+          "id": "your-hero-may-not-move-after-retreating",
+          "text": "Your Hero may not move after retreating."
+        },
+        {
+          "id": "army-limit-is-decreased-by-1",
+          "text": "Army limit is decreased by 1"
+        },
+        {
+          "id": "artifacts-cannot-be-obtained-before-an-obeli",
+          "text": "Artifacts cannot be obtained before an obelisk is visited (make sure at least one obelisk per player are in game)"
+        },
+        {
+          "id": "hero-revives-without-troops",
+          "text": "Hero revives without troops"
+        },
+        {
+          "id": "all-neutral-bronze-units-have-3-to-initiati",
+          "text": "All neutral bronze units have +3 to initiative"
+        },
+        {
+          "id": "all-neutral-silver-units-have-2-to-initiati",
+          "text": "All neutral silver units have +2 to initiative"
+        },
+        {
+          "id": "ai-armies-have-1-mp",
+          "text": "AI armies have +1 MP"
+        },
+        {
+          "id": "place-a-random-stack-token-on-the-slowest-en",
+          "text": "Place a random stack token on the slowest enemy unit for all neutral combats."
+        }
+      ]
+    },
+    {
+      "id": "aiBehaviour",
+      "column": "J",
+      "label": "AI Behaviour",
+      "entries": [
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-their-first-activ",
+          "text": "AI's cast a 2 damage MA on their first activation each round (targeting as if it was a Bronze ranged unit)"
+        },
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-their-first-activ-2",
+          "text": "AI's cast a 2 damage MA on their first activation each round (targeting as if it was a Silver ranged unit)"
+        },
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-their-first-activ-3",
+          "text": "AI's cast a 2 damage MA on their first activation each round (targeting as if it was a Gold ranged unit)"
+        },
+        {
+          "id": "ai-s-add-1-defence-on-first-and-second-attac",
+          "text": "AI's add 1 defence on first and second attack which may kill their unit."
+        },
+        {
+          "id": "ai-s-add-1-attack-on-first-and-second-ranged",
+          "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+        },
+        {
+          "id": "ai-s-add-3-initiative-to-its-fastest-ranged",
+          "text": "AI's add 3 initiative to its fastest ranged unit (melee if no ranged units) on its first activation"
+        },
+        {
+          "id": "ai-s-paralyze-your-next-unit-after-its-first",
+          "text": "AI's paralyze your next unit after its first activation."
+        },
+        {
+          "id": "ai-s-remove-retaliation-token-on-its-highest",
+          "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+        },
+        {
+          "id": "ai-s-discard-a-random-card-from-your-hand-on",
+          "text": "AI's discard a random card from your hand on its first activation."
+        },
+        {
+          "id": "ai-s-after-its-first-activation-it-prevents",
+          "text": "AI's after its first activation it prevents you from casting MA in this combat."
+        },
+        {
+          "id": "ai-s-add-1-attack-on-first-and-second-attack",
+          "text": "AI's add 1 Attack on first and second attack"
+        },
+        {
+          "id": "ai-heals-the-highest-defence-unit-with-at-le",
+          "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
+        },
+        {
+          "id": "ai-uses-a-resurrection-ignores-attack-on-i",
+          "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+        },
+        {
+          "id": "ai-places-a-random-stack-token-on-their-slow",
+          "text": "AI places a random stack token on their slowest non-stacked unit at the beginning of combat"
+        },
+        {
+          "id": "ai-places-a-random-stack-token-on-lowest-tie",
+          "text": "AI places a random stack token on lowest tier ranged and non-stacked unit at the beginning of combat.(melee if no ranged)"
+        },
+        {
+          "id": "ai-places-2-quicksand-tokens-on-the-battlefi",
+          "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+        },
+        {
+          "id": "ai-places-2-land-mine-tokens-on-the-battlefi",
+          "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+        },
+        {
+          "id": "ai-summons-few-air-elements-on-its-first-act",
+          "text": "AI summons Few Air Elements on its first activation. (If few Air Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-water-elements-on-its-first-a",
+          "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-fire-elements-on-its-first-ac",
+          "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-earth-elements-on-its-first-a",
+          "text": "AI summons Few Earth Elements on its first activation. (If few Earth Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-casts-fire-shield-0-on-its-fastest-unit",
+          "text": "AI casts Fire Shield (0) on its fastest unit on their first activation"
+        }
+      ]
+    },
+    {
+      "id": "victoryClash",
+      "column": "K",
+      "label": "Victory Conditions (Clash)",
+      "entries": [
+        {
+          "id": "eliminate-all-other-players-a-player-is-eli",
+          "text": "Eliminate all other players, a player is eliminated when their town is captured."
+        },
+        {
+          "id": "obtain-a-player-cube-from-each-player-you-o",
+          "text": "Obtain a player cube from each player, you obtain a player cube by defeating one of their hero, you get a cube even if they retreat immediately or you defeat their secondary hero"
+        },
+        {
+          "id": "hold-the-most-mines-when-the-scenario-ends",
+          "text": "Hold the most mines when the scenario ends. (tiebreaker: gold)"
+        },
+        {
+          "id": "reach-hero-level-7-and-obtain-50-gold-to-win",
+          "text": "Reach hero level 7 and obtain 50 gold to win before the last round is over. If no player has achieved the win condition all players lose."
+        },
+        {
+          "id": "capture-the-grail-at-the-center-tile-and-bri",
+          "text": "Capture the Grail at the center tile and bring it back to your town. The grail can be stolen by defeating the hero holding it before they enter their town."
+        },
+        {
+          "id": "reach-hero-level-7-and-fully-build-your-town",
+          "text": "Reach hero level 7 and fully build your town to win. If no player has achieved the win condition all players lose when last round is over."
+        },
+        {
+          "id": "obtain-4-relic-artifacts-in-your-hand-to-win",
+          "text": "Obtain 4 relic artifacts in your hand to win. If no player has achieved the win condition all players lose when last round is over."
+        }
+      ]
+    }
+  ],
+  "reference": {
+    "stack": {
+      "title": "Enemy Stacks",
+      "headers": [
+        "Easy",
+        "Normal",
+        "Hard",
+        "Impossible"
+      ],
+      "rows": [
+        [
+          "2P",
+          "4B+4S+4G+2A",
+          "5S+5G+4A",
+          "5S+5G+5A",
+          "4S+8G+8A"
+        ],
+        [
+          "3P",
+          "6B+6S+6G+3A",
+          "8S+8G+6A",
+          "8S+8G+8A",
+          "6S+12G+12A"
+        ],
+        [
+          "4P",
+          "8B+8S+8G+4A",
+          "10S+10G+8A",
+          "10S+10G+10A",
+          "8S+16G+16A"
+        ]
+      ]
+    },
+    "aiArmy": [
+      {
+        "title": "AI-Hero",
+        "headers": [
+          "Easy",
+          "Normal",
+          "Hard",
+          "Imposible"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "1B",
+            "2B",
+            "3B",
+            "4B"
+          ],
+          [
+            "Round 2",
+            "1B",
+            "2B",
+            "4B",
+            "3B+2S"
+          ],
+          [
+            "Round 3",
+            "2B",
+            "3B",
+            "5B",
+            "2B+3S"
+          ],
+          [
+            "Round 4",
+            "1B+1S",
+            "4B",
+            "2B+2S",
+            "1B+4S"
+          ],
+          [
+            "Round 5",
+            "1B+1S",
+            "2S",
+            "3S",
+            "5S"
+          ],
+          [
+            "Round 6",
+            "2B+1S",
+            "2B+2S",
+            "2S+1G",
+            "3S+2G"
+          ],
+          [
+            "Round 7",
+            "2B+2S",
+            "3B+2S",
+            "2B+2S+1G",
+            "2S+3G"
+          ],
+          [
+            "Round 8",
+            "2B+2S",
+            "1B+2S+1G",
+            "3G",
+            "1S+4G"
+          ],
+          [
+            "Round 9",
+            "2B+2S",
+            "2S+2G",
+            "2S+3G",
+            "5G"
+          ],
+          [
+            "Round 10",
+            "1B+1S+1G",
+            "1B+2S+2G",
+            "4S+1A",
+            "4G+1A"
+          ],
+          [
+            "Round 11",
+            "1B+1S+1G",
+            "3S+2G",
+            "2S+2G+1A",
+            "3G+2A"
+          ],
+          [
+            "Round 12",
+            "2B+1S+1G",
+            "3S+1A",
+            "3G+1A",
+            "3G+2A"
+          ],
+          [
+            "Round 13",
+            "2B+2S+1G",
+            "2S+1G+1A",
+            "4G+1A",
+            "2G+3A"
+          ],
+          [
+            "Round 14",
+            "2B+2S+1G",
+            "1S+2G+1A",
+            "2A",
+            "1G+4A"
+          ],
+          [
+            "Round 15",
+            "1B+2S+2G",
+            "2A",
+            "3A",
+            "5A"
+          ],
+          [
+            "Round 16...",
+            "1B+2S+2G",
+            "2G+2A",
+            "4A",
+            "5A"
+          ]
+        ],
+        "behaviours": [
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "title": "AI-faction-Hero",
+        "headers": [
+          "Easy",
+          "Normal",
+          "Hard",
+          "Imposible"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "T1F",
+            "T1F+T2F",
+            "T1-2P",
+            "T1-4P"
+          ],
+          [
+            "Round 2",
+            "T1P",
+            "T1P+T2F",
+            "T1-2P",
+            "T1-5P"
+          ],
+          [
+            "Round 3",
+            "T1P+T2F",
+            "T1-3F",
+            "T1-3P",
+            "T1-5P"
+          ],
+          [
+            "Round 4",
+            "T1P+T2P+T3F",
+            "T1-4F",
+            "T1-3P",
+            "T2-6P"
+          ],
+          [
+            "Round 5",
+            "T1P+T2P+T3P",
+            "T1P+T2-4F",
+            "T1-3P",
+            "T2-6P"
+          ],
+          [
+            "Round 6",
+            "T1P+T2P+T3P",
+            "T1-5F",
+            "T1-4P",
+            "T2-6P"
+          ],
+          [
+            "Round 7",
+            "T1P+T2P+T3P",
+            "T1-4P+T5F",
+            "T1-4P",
+            "T2-6P"
+          ],
+          [
+            "Round 8",
+            "T1P+T2P+T3P",
+            "T1-5P",
+            "T1-5P",
+            "T3-6P + T7F"
+          ],
+          [
+            "Round 9",
+            "T1P+T2P+T3P+T4F",
+            "T1-5P",
+            "T1-5P",
+            "T3-6P + T7F"
+          ],
+          [
+            "Round 10",
+            "T1P+T2P+T3P+T4F",
+            "T1-5P",
+            "T1-5P",
+            "T3-7P"
+          ],
+          [
+            "Round 11",
+            "T1P+T2P+T3P+T4P",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 12",
+            "T1P+T2P+T3P+T5F",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 13",
+            "T1P+T2P+T3P+T4P+T5F",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 14",
+            "T1-5P",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 15",
+            "T1-5P",
+            "T2-6P",
+            "T3-6P + T7F",
+            "T3-7P"
+          ],
+          [
+            "Round 16...",
+            "T1-5P",
+            "T2-6P",
+            "T3-6P + T7F",
+            "T3-7P"
+          ]
+        ],
+        "behaviours": [
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            1,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "title": "Stacking AI-Hero",
+        "headers": [
+          "Easy",
+          "Normal",
+          "Hard",
+          "Imposible"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "1B",
+            "1B + 1Bs",
+            "2B + 1Bs",
+            "5B"
+          ],
+          [
+            "Round 2",
+            "2B",
+            "1B + 1Bs",
+            "3Bs",
+            "3B+ 2Bs"
+          ],
+          [
+            "Round 3",
+            "1B + 1Bs",
+            "2B + 1Bs",
+            "4Bs",
+            "1B + 4Bs"
+          ],
+          [
+            "Round 4",
+            "1B + 1S",
+            "1B + 1Bs + 1S",
+            "5Bs",
+            "2S+3Bs"
+          ],
+          [
+            "Round 5",
+            "1Bs + 1S",
+            "1B + 2Bs + 1S",
+            "4Bs + 1S",
+            "2Ss+3Bs"
+          ],
+          [
+            "Round 6",
+            "1Bs + 1Ss",
+            "1B + 3Bs + 1S",
+            "3Bs + 2S",
+            "3Ss+2Bs"
+          ],
+          [
+            "Round 7",
+            "1B + 1Bs + 1Ss",
+            "2B + 2Bs + 1Ss",
+            "2Bs + 3S",
+            "4Ss+1Bs"
+          ],
+          [
+            "Round 8",
+            "2B + 1Bs + 1Ss",
+            "1B + 2Bs + 1S + 1Ss",
+            "1Bs + 2Ss +1S",
+            "3Ss + 2G"
+          ],
+          [
+            "Round 9",
+            "3B + 1Bs + 1Ss",
+            "1B + 2Bs + 2Ss",
+            "1Bs + 2Ss +1G",
+            "2Ss + 2G + 1Gs"
+          ],
+          [
+            "Round 10",
+            "2B + 2Bs + 1Ss",
+            "2Bs + 3Ss",
+            "3Ss +1G",
+            "1Ss + 2G +2 Gs"
+          ],
+          [
+            "Round 11",
+            "2B + 1Bs + 1S + 1Ss",
+            "3Ss + 1G",
+            "3Ss +1Gs",
+            "1As"
+          ],
+          [
+            "Round 12",
+            "1B + 2Bs + 1S + 1Ss",
+            "1S + 2Ss + 1G",
+            "3Ss +1G + 1 Gs",
+            "1Gs + 1As"
+          ],
+          [
+            "Round 13",
+            "3Bs + 1S + 1Ss",
+            "3Ss + 1G",
+            "2Ss + 2Gs",
+            "2Gs + 1As"
+          ],
+          [
+            "Round 14",
+            "3Bs + 2Ss",
+            "1S + 2Ss + 1Gs",
+            "2Gs + 1 A",
+            "2As"
+          ],
+          [
+            "Round 15",
+            "1S +1Ss + 1Gs",
+            "2Gs",
+            "1Ss + 2Gs + 1 A",
+            "1Gs + 1As"
+          ],
+          [
+            "Round 16...",
+            "2Gs",
+            "3Gs",
+            "4Gs",
+            "3As"
+          ]
+        ],
+        "behaviours": [
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ]
+        ]
+      }
+    ],
+    "behaviourCount": [
+      "No behavior",
+      "1 behavior",
+      "2 behavior",
+      "3 behavior"
+    ],
+    "aiRules": [
+      "The AI spawns at the center tile with 0MP unless otherwise specified.",
+      "The AI gains 3MP each round which it moves towards the nearest player hero at the end of the round, disregarding \"Fog of war\" and can stand on any unrevealed field.",
+      "Spawn any new AI's before moving the currently active AI's",
+      "The AI army composition is determined at first combat encounter.",
+      "AI faction armies >faction< (if random) is determined when the field it stands on is revealed or it lands on a revealed field.",
+      "The AI army losses are permanent.",
+      "Battling the AI costs no MP",
+      "If two AI armies are nearest to the same player hero the furthest AI will move towards the second nearest hero",
+      "If the closest hero is hiding in a sanctuary, the AI will permanently move towards their town.",
+      "The AI does not take fields or mines.",
+      "The AI army will NOT use a monolith, Unless there is no path to any hero, or a hero used it this round.",
+      "Defeating any AI army gives ½XP and Search (4) artifact deck"
+    ],
+    "glossary": [
+      {
+        "term": "Enemy stack:",
+        "text": "Draw 5 random cards from the stack and initiate combat as normal, any enemy units who die are removed from the stack, the field is won when the last unit of the stack has been defeated.",
+        "note": ""
+      },
+      {
+        "term": "Reinforced enemy stack:",
+        "text": "Similar to the enemy stack, but when an enemy is killed draw a new unit card from the stack and place it on the the enemy back line.",
+        "note": ""
+      },
+      {
+        "term": "Resurrecting enemy stack:",
+        "text": "All enemy units in a combat must all be defeated to be removed from the stack otherwise they are return to the stack.",
+        "note": ""
+      },
+      {
+        "term": "B",
+        "text": "Bronze unit",
+        "note": "T1-3, for factions"
+      },
+      {
+        "term": "S",
+        "text": "Silver unit",
+        "note": "T4, T5 for factions"
+      },
+      {
+        "term": "G",
+        "text": "Gold unit",
+        "note": "T6, T7 for factions"
+      },
+      {
+        "term": "A",
+        "text": "Azure unit",
+        "note": ""
+      },
+      {
+        "term": "MA",
+        "text": "Magic Arrow",
+        "note": ""
+      },
+      {
+        "term": "MP",
+        "text": "Movement points",
+        "note": ""
+      },
+      {
+        "term": "AI mechanics",
+        "text": "A random selected strategy for the AI battles, can be replaced by the regular \"AI-card mechanics\"",
+        "note": ""
+      },
+      {
+        "term": "AI-Hero",
+        "text": "An AI army of neutral units who uses AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "Faction army",
+        "text": "An army of an unused faction does NOT use AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "AI-faction-Hero",
+        "text": "An army of an unused faction who uses AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "Army",
+        "text": "A selection of units which guards a single field.",
+        "note": ""
+      },
+      {
+        "term": "Hero",
+        "text": "A selection of units which can move around the map",
+        "note": ""
+      },
+      {
+        "term": "Stack",
+        "text": "A selection of units too large to defeat in a single combat.",
+        "note": ""
+      }
+    ]
+  }
+}

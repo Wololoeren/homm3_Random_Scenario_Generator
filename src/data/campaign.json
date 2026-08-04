@@ -1,0 +1,2788 @@
+{
+  "columns": [
+    {
+      "id": "faction",
+      "column": "A",
+      "label": "Factions",
+      "entries": [
+        {
+          "id": "castle",
+          "text": "Castle"
+        },
+        {
+          "id": "tower",
+          "text": "Tower"
+        },
+        {
+          "id": "rampart",
+          "text": "Rampart"
+        },
+        {
+          "id": "inferno",
+          "text": "Inferno"
+        },
+        {
+          "id": "necropolis",
+          "text": "Necropolis"
+        },
+        {
+          "id": "dungeon",
+          "text": "Dungeon"
+        },
+        {
+          "id": "fortress",
+          "text": "Fortress"
+        },
+        {
+          "id": "stronghold",
+          "text": "Stronghold"
+        },
+        {
+          "id": "conflux",
+          "text": "Conflux"
+        },
+        {
+          "id": "cove",
+          "text": "Cove"
+        }
+      ]
+    },
+    {
+      "id": "victoryAct1",
+      "column": "B",
+      "label": "Act 1 Victory Condition",
+      "entries": [
+        {
+          "id": "reach-level-4",
+          "text": "Reach Level 4."
+        },
+        {
+          "id": "gather-30-gold",
+          "text": "Gather 30 gold"
+        },
+        {
+          "id": "recruit-few-of-silver-units",
+          "text": "Recruit few of Silver units"
+        }
+      ]
+    },
+    {
+      "id": "army",
+      "column": "C",
+      "label": "Starting Army",
+      "entries": [
+        {
+          "id": "t1p-t2p",
+          "text": "T1P + T2P"
+        },
+        {
+          "id": "t1f-t2f-t3f",
+          "text": "T1F + T2F + T3F"
+        },
+        {
+          "id": "choose-2-bronze-packed",
+          "text": "Choose 2 Bronze packed"
+        },
+        {
+          "id": "t1p-t2p-t3f",
+          "text": "T1P + T2P + T3F"
+        },
+        {
+          "id": "t1f-t2f-t3p",
+          "text": "T1F + T2F + T3P"
+        },
+        {
+          "id": "t1p-t4f",
+          "text": "T1P + T4F"
+        },
+        {
+          "id": "t1f-t2f-t3p-2",
+          "text": "T1F + T2F + T3P"
+        },
+        {
+          "id": "t1p-t2f-t3f",
+          "text": "T1P + T2F + T3F"
+        },
+        {
+          "id": "a-random-neutral-bronze-and-silver-unit",
+          "text": "A random neutral bronze and silver unit"
+        },
+        {
+          "id": "3-random-neutral-bronze-units",
+          "text": "3 Random Neutral Bronze Units"
+        },
+        {
+          "id": "search-2-neutral-bronze-units-twice",
+          "text": "Search (2) Neutral bronze units twice"
+        },
+        {
+          "id": "t1p-st-t2p",
+          "text": "T1P+st + T2P"
+        },
+        {
+          "id": "2-x-neutral-bronze-select-one-which-gains-a",
+          "text": "2 x Neutral bronze, select one which gains a stack token"
+        }
+      ]
+    },
+    {
+      "id": "obelisk",
+      "column": "D",
+      "label": "Obelisk Reward",
+      "entries": [
+        {
+          "id": "4g-2bm-1v",
+          "text": "4G+2BM+1V"
+        },
+        {
+          "id": "resolve-1-treasure-dice",
+          "text": "Resolve 1 treasure dice"
+        },
+        {
+          "id": "resolve-1-resource-dice",
+          "text": "Resolve 1 resource dice"
+        },
+        {
+          "id": "roll-1-treasure-and-1-resource-dice-resolv",
+          "text": "Roll 1 treasure and 1 resource -dice, resolve 1"
+        },
+        {
+          "id": "search-2-artifact-deck",
+          "text": "Search (2) artifact deck"
+        },
+        {
+          "id": "1-experience-1-step",
+          "text": "1 experience (1 step)"
+        },
+        {
+          "id": "hero-gains-1-mp",
+          "text": "Hero gains 1 MP"
+        },
+        {
+          "id": "hero-gains-2-mp",
+          "text": "Hero gains 2 MP."
+        },
+        {
+          "id": "draw-2-cards-from-your-deck",
+          "text": "Draw 2 cards from your deck"
+        },
+        {
+          "id": "gain-positive-morale-twice",
+          "text": "Gain positive morale twice"
+        },
+        {
+          "id": "search-2-ability-deck",
+          "text": "Search (2) ability deck"
+        },
+        {
+          "id": "draw-1-artifact-you-may-immediately-give-it",
+          "text": "Draw 1 artifact you may immediately give it to any player."
+        },
+        {
+          "id": "change-astrologers-card-immediately",
+          "text": "Change Astrologers card immediately."
+        },
+        {
+          "id": "roll-a-resource-dice-and-gain-1-step-of-the",
+          "text": "Roll a resource dice and gain 1 step of the result as income (Only for the first player to visit)"
+        },
+        {
+          "id": "draw-3-neutral-from-any-decks-which-you-have",
+          "text": "Draw 3 neutral from any decks which you have a corresponding dwelling, keep the one with the lowest gold cost"
+        },
+        {
+          "id": "choose-a-reward-from-an-adjacent-visitable-f",
+          "text": "Choose a reward from an adjacent visitable field."
+        },
+        {
+          "id": "pay-5g-to-draw-a-pandora-s-box-card",
+          "text": "Pay 5G to draw a Pandora's Box card."
+        }
+      ]
+    },
+    {
+      "id": "farTiles",
+      "column": "E",
+      "label": "Far Tile Selection",
+      "entries": [
+        {
+          "id": "randomly-select-far-tiles-from-f1-f2-f3",
+          "text": "Randomly select far tiles from #F1, #F2, #F3, #F7 (snow)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f4-f8-f6",
+          "text": "Randomly select far tiles from #F4, #F8, F6, F3 (plains)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f13-f14-f15",
+          "text": "Randomly select far tiles from F13, F14,F15, #F15 (swamp)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f12-f11-f10",
+          "text": "Randomly select far tiles from F12,F11,F10, F9 (grass)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f2-f5-f8-f",
+          "text": "Randomly select far tiles from F2, F5,F8, #F5 (waste)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f16-f17-f18",
+          "text": "Randomly select far tiles from F16, F17, F18, #F10 (lava)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f1-f4-f7",
+          "text": "Randomly select far tiles from F1, F4, F7, #F6 (dead)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f25-f26-f27",
+          "text": "Randomly select far tiles from F25, F26, F27, #F13 (highlands)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f9-f6-f3",
+          "text": "Randomly select far tiles from F9, F6, F3, #F12 (highlands)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f22-f23-f24",
+          "text": "Randomly select far tiles from F22, F23, F24, #F8 (grass)"
+        },
+        {
+          "id": "randomly-select-far-tiles-from-f19-f20-f21",
+          "text": "Randomly select far tiles from F19, F20, F21, #F11 (grass)"
+        }
+      ]
+    },
+    {
+      "id": "timedEvents",
+      "column": "F",
+      "label": "Timed Events",
+      "entries": [
+        {
+          "id": "gain-a-random-bronze-neutral-unit-at-the-beg",
+          "text": "Gain a random bronze neutral unit at the beginning of round 3."
+        },
+        {
+          "id": "gain-1-extra-mp-on-round-2-and-4",
+          "text": "Gain 1 extra MP on round 2 and 4."
+        },
+        {
+          "id": "gain-a-secondary-hero-on-round-5",
+          "text": "Gain a secondary hero on round 5."
+        },
+        {
+          "id": "search-2-your-discard-pile-at-the-end-roun",
+          "text": "Search (2) your discard pile at the end round 2 and 4"
+        },
+        {
+          "id": "roll-a-treasure-dice-and-resolve-its-outcome",
+          "text": "Roll a treasure dice and resolve its outcome on round 3"
+        },
+        {
+          "id": "roll-a-resource-dice-and-resolve-its-outcome",
+          "text": "Roll a resource dice and resolve its outcome on round 3"
+        },
+        {
+          "id": "remove-black-cubes-from-your-starting-tile-o",
+          "text": "Remove black cubes from your starting tile on round 2."
+        }
+      ]
+    },
+    {
+      "id": "completionReward",
+      "column": "G",
+      "label": "Completion Reward",
+      "entries": [
+        {
+          "id": "search-5-the-artifact-deck",
+          "text": "Search (5) the artifact deck"
+        },
+        {
+          "id": "search-5-the-ability-deck",
+          "text": "Search (5) the ability deck"
+        },
+        {
+          "id": "search-8-the-spell-deck",
+          "text": "Search (8) the Spell deck"
+        },
+        {
+          "id": "reinforce-any-one-unit-in-your-army-for-free",
+          "text": "Reinforce any one unit in your army for free"
+        },
+        {
+          "id": "place-a-stack-token-on-any-one-unit-in-your",
+          "text": "Place a stack token on any one unit in your army"
+        },
+        {
+          "id": "permanently-increase-your-handsize-by-1",
+          "text": "Permanently increase your handsize by 1"
+        },
+        {
+          "id": "permanently-increase-your-expert-level-by-1",
+          "text": "Permanently increase your expert level by 1"
+        },
+        {
+          "id": "permanently-increase-your-movement-by-1",
+          "text": "Permanently increase your movement by 1"
+        },
+        {
+          "id": "draw-a-pandora-s-box-card",
+          "text": "Draw a Pandora's Box card"
+        },
+        {
+          "id": "gain-an-empowered-ability-token-then-search",
+          "text": "Gain an Empowered Ability token then Search (2) the ability deck"
+        },
+        {
+          "id": "remove-up-to-2-statistic-cards-from-your-han",
+          "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
+        }
+      ]
+    },
+    {
+      "id": "nearTiles",
+      "column": "H",
+      "label": "Near Tile Selection",
+      "entries": [
+        {
+          "id": "use-n11-n12-lava",
+          "text": "Use N11, N12 (lava)"
+        },
+        {
+          "id": "use-n1-n4-dead",
+          "text": "Use N1,N4 (dead)"
+        },
+        {
+          "id": "use-n7-n8-grass",
+          "text": "Use N7,N8 (grass)"
+        },
+        {
+          "id": "use-n2-n5-waste",
+          "text": "Use N2, N5 (waste)"
+        },
+        {
+          "id": "use-n6-n9-swamp",
+          "text": "Use N6, N9 (swamp)"
+        },
+        {
+          "id": "use-n3-n3-plains",
+          "text": "Use #N3, N3 (plains)"
+        },
+        {
+          "id": "use-n1-n2-snow",
+          "text": "Use #N1, #N2 (snow)"
+        },
+        {
+          "id": "use-n14-n15-el-fire",
+          "text": "Use N14, N15 (el.fire)"
+        },
+        {
+          "id": "use-n16-n17-el-water",
+          "text": "Use N16, N17 (el.water)"
+        },
+        {
+          "id": "use-n18-n19-el-air",
+          "text": "Use N18, N19 (el.air)"
+        },
+        {
+          "id": "use-n20-n21-el-earth",
+          "text": "Use N20, N21 (el. earth)"
+        }
+      ]
+    },
+    {
+      "id": "dungeonTiles",
+      "column": "I",
+      "label": "Dungeon Tile Selection",
+      "entries": [
+        {
+          "id": "use-f2-f5-n2-n4",
+          "text": "Use F2, #F5, N2, N4"
+        },
+        {
+          "id": "use-f19-f20-n2-n4",
+          "text": "Use F19, F20, N2, N4"
+        },
+        {
+          "id": "use-f19-f5-n2-n4",
+          "text": "Use F19, #F5, N2, N4"
+        },
+        {
+          "id": "use-f16-f17-n2-n4",
+          "text": "Use F16, F17 N2, N4"
+        },
+        {
+          "id": "use-f2-f5-n5-n1",
+          "text": "Use F2, #F5, N5, N1."
+        },
+        {
+          "id": "use-f19-f20-n5-n1",
+          "text": "Use F19, F20, N5, N1."
+        },
+        {
+          "id": "use-f19-f5-n5-n1",
+          "text": "Use F19, #F5, N5, N1."
+        },
+        {
+          "id": "use-f16-f17-n5-n1",
+          "text": "Use F16, F17, N5, N1."
+        },
+        {
+          "id": "use-f2-f5-u1-u5",
+          "text": "Use F2, #F5, U1, U5"
+        },
+        {
+          "id": "use-f19-f20-u1-u5",
+          "text": "Use F19, F20, U1, U5"
+        },
+        {
+          "id": "use-f19-f5-u1-u5",
+          "text": "Use F19, #F5, U1, U5"
+        },
+        {
+          "id": "use-f16-f17-u1-u5",
+          "text": "Use F16, F17, U1, U5"
+        },
+        {
+          "id": "use-f2-f5-n6-n5",
+          "text": "Use F2, #F5, #N6, #N5"
+        },
+        {
+          "id": "use-f19-f20-n6-n5",
+          "text": "Use F19, F20, #N6, #N5"
+        },
+        {
+          "id": "use-f19-f5-n6-n5",
+          "text": "Use F19, #F5, #N6, #N5"
+        },
+        {
+          "id": "use-f16-f17-n6-n5",
+          "text": "Use F16, F17, #N6, #N5"
+        }
+      ]
+    },
+    {
+      "id": "aiBehaviour",
+      "column": "K",
+      "label": "AI Behaviour",
+      "entries": [
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-its-first-activat",
+          "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Bronze ranged unit)"
+        },
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-its-first-activat-2",
+          "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Silver ranged unit)"
+        },
+        {
+          "id": "ai-s-cast-a-2-damage-ma-on-its-first-activat-3",
+          "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Gold ranged unit)"
+        },
+        {
+          "id": "ai-s-add-1-defence-on-first-and-second-attac",
+          "text": "AI's add 1 defence on first and second attack which may kill their unit."
+        },
+        {
+          "id": "ai-s-add-1-attack-on-first-and-second-ranged",
+          "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+        },
+        {
+          "id": "ai-s-add-3-initiative-to-its-fastest-ranged",
+          "text": "AI's add 3 initiative to its fastest ranged unit (melee if no ranged units) on its first activation"
+        },
+        {
+          "id": "ai-s-paralyze-your-next-unit-after-its-first",
+          "text": "AI's paralyze your next unit after its first activation."
+        },
+        {
+          "id": "ai-s-remove-retaliation-token-on-its-highest",
+          "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+        },
+        {
+          "id": "ai-s-discard-a-random-card-from-your-hand-on",
+          "text": "AI's discard a random card from your hand on its first activation."
+        },
+        {
+          "id": "ai-s-after-its-first-activation-it-prevents",
+          "text": "AI's after its first activation it prevents you from casting MA in this combat."
+        },
+        {
+          "id": "ai-s-add-1-attack-on-first-and-second-attack",
+          "text": "AI's add 1 Attack on first and second attack"
+        },
+        {
+          "id": "ai-heals-the-highest-defence-unit-with-at-le",
+          "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
+        },
+        {
+          "id": "ai-uses-a-resurrection-ignores-attack-on-i",
+          "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+        },
+        {
+          "id": "place-a-stack-token-on-slowest-non-stacked-u",
+          "text": "Place a stack token on slowest non-stacked unit."
+        },
+        {
+          "id": "place-a-stack-token-on-lowest-tier-ranged-an",
+          "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
+        },
+        {
+          "id": "ai-places-2-quicksand-tokens-on-the-battlefi",
+          "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+        },
+        {
+          "id": "ai-places-2-land-mine-tokens-on-the-battlefi",
+          "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+        },
+        {
+          "id": "ai-summons-few-air-elements-on-its-first-act",
+          "text": "AI summons Few Air Elements on its first activation. (If few Air Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-water-elements-on-its-first-a",
+          "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-fire-elements-on-its-first-ac",
+          "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-summons-few-earth-elements-on-its-first-a",
+          "text": "AI summons Few Earth Elements on its first activation. (If few Earth Elements is already on the board turn them to the pack side)"
+        },
+        {
+          "id": "ai-casts-fire-shield-0-on-its-fastest-unit",
+          "text": "AI casts Fire Shield (0) on its fastest unit on their first activation"
+        }
+      ]
+    }
+  ],
+  "epithets": [
+    "the brave",
+    "the mighty",
+    "the magical",
+    "the lonely",
+    "the deep",
+    "the grumpy",
+    "the magnificient",
+    "the wise",
+    "the benevolent"
+  ],
+  "villainWords": [
+    "bitches",
+    "tyrans",
+    "brutes",
+    "devils",
+    "witches",
+    "trolls",
+    "grand evils"
+  ],
+  "acts": {
+    "solo": [
+      {
+        "act": 1,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "A",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "You are Tarnum (Rampart) the benevolent of Rampart. Lately you suffered great losses at the hand of your arc-rival Monere from Conflux. Ever since they allied themselves with Sandro and Dracon it has been only setback after setback, you must gather you strength and vanquish these brutes before all is lost."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "formula",
+            "source": null,
+            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nMonere :Place a defence stack token on Magic Elements when combat begins\nSandro :Place a stack token on any Necropolis Bronze units when combat begins\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Roll 1 treasure and 1 resource -dice, resolve 1"
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "roll",
+            "source": "farTiles",
+            "text": "Randomly select far tiles from #F4, #F8, F6, F3 (plains)"
+          },
+          "row6": {
+            "label": "Starting Buildings",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "row7": {
+            "label": "Starting Resources",
+            "kind": "text",
+            "source": null,
+            "text": "1V"
+          },
+          "row8": {
+            "label": "Starting Income",
+            "kind": "text",
+            "source": null,
+            "text": "10G + 0BM + 0V"
+          },
+          "row9": {
+            "label": "Starting Army",
+            "kind": "roll",
+            "source": "army",
+            "text": "Search (2) Neutral bronze units twice"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "roll",
+            "source": "victoryAct1",
+            "text": "Recruit few of Silver units"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Gain 1 extra MP on round 2 and 4."
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Reinforce any one unit in your army for free"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 1. \nYou keep all gold, but sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Tarnum (Rampart) the benevolent you must choose to go after Sandro(go to act-2) OR Dracon (go to act3) to weaken Monere's postion."
+          }
+        }
+      },
+      {
+        "act": 2,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "B",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "roll",
+            "source": "nearTiles",
+            "text": "Use N18, N19 (el.air)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on slowest non-stacked unit."
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "1 far tile"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "formula",
+            "source": null,
+            "text": "Defeat the AI-faction-army of (Necropolis) controlled by Sandro"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Search (2) your discard pile at the end round 2 and 4"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your expert level by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward, immediately start combat with 2 random neutral silver units. \nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nYou may purchase one building and recruit for you current resources.\nYou keep all gold, but sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "With the defeat of Sandro's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 5)"
+          }
+        }
+      },
+      {
+        "act": 3,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "B",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Dracon is a complete idiot they are moving out to attack but they have not realized the weather and terrain are working against them, they must be eliminated before they are at our gates."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army have 1MP per turn, and is placed on the center field of the starting tile you did not choose."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "roll",
+            "source": "nearTiles",
+            "text": "Use N18, N19 (el.air)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's paralyze your next unit after its first activation."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's discard a random card from your hand on its first activation."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "F13"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "formula",
+            "source": null,
+            "text": "Defeat the AI-faction-hero of (Tower) controlled by Dracon"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Search (2) your discard pile at the end round 2 and 4"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your movement by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nYou may purchase one building and recruit for you current resources.\nYou keep all gold, but must sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 6)"
+          }
+        }
+      },
+      {
+        "act": 4,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "C",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Your hero start At \"H\".\nAll center-fields of all tiles are BLOCKED.\nYou may not recruit any of you faction units in this act.\nYou may not build in this act.\nYou do not gain income on resource rounds.\nNeutral \"Sharpshooters\" join your army.\nYour secoundary hero is benched for this act."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "roll",
+            "source": "dungeonTiles",
+            "text": "Use F19, #F5, U1, U5"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Visit the end of the dungeon field \"E\""
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "Lose 1 MP at round 1, 2 and 3.\nGain 1 MP at round 4 and 5"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "text",
+            "source": null,
+            "text": "Permanently increase you MP by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "Remove \"Sharpshooters from your army.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 3. \nYou keep your current army.\nYour income is reset to 10G, 0BM, 0V"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "You made it out just in time, but the cave has collapsed, Sandro and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
+          }
+        }
+      },
+      {
+        "act": 5,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "D",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "As you and you army gets settled in the new land it becomes clear this is Monere's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "You BM income is reset to 0.\nAdd 1 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N7,N8 (grass) and Randomly select far tiles from F1, F4, F7, #F6 (dead)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 3 initiative to its fastest ranged unit (melee if no ranged units) on its first activation"
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 Attack on first and second attack"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Defeat the 3 AI faction armies"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "formula",
+            "source": null,
+            "text": "Spawn an AI faction hero (Conflux) on the center field of the center tile on round 2,4 and 6"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 8"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nDiscard units until you only have 5.\nYou keep all gold, but must sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "You surely dealt a vast blow to, Monere cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
+          }
+        }
+      },
+      {
+        "act": 6,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "E",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Both Sandro and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Your hero starts on you starting tile marked \"H\".\nThe two other starting tiles are guarded by an AI-faction army of its faction, wall and arrow tower.\nFor all neutral combat your army size is limited to 4. \nConquering a town rewards 10G, 4BM and 1V, and increase you gold income by 5.\nAdd 1 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N14, N15 (el.fire) and Randomly select far tiles from F19, F20, F21, #F11 (grass). The remaining starting tiles are Necropolis and Conflux"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on slowest non-stacked unit."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 Attack on first and second attack"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Conquer the two faction towns"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "An AI (neutral) spawns on center-field of the center-tile at round 3."
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 9 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your movement by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "You may add the spell \"Lightning bolt\" to your deck if you choose.\nYou may add the ability \"Air magic\" to your deck if you choose.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 3."
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro and Dracon are fleeing to their master Monere Follow them and finish this once and for all (go to act 8)"
+          }
+        }
+      },
+      {
+        "act": 7,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "F",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "The red monolith was a one way the brutes baited you into a trap! and now you must fight the natives to survive"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "You start with your starting tile on the only starting tile.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them.\nAdd 2 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Randomly select from any near tiles and Randomly select far tiles from #F4, #F8, F6, F3 (plains)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Bronze ranged unit)"
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Reach level 7 and defeat all 3 AI heroes"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "Spawn a neutral AI-Hero on a center-field on one of the center-tiles roll an attack die to determined which one, on round 2,4 and 6"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 8 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Search (8) the Spell deck"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "You may add the spell \"Town portal\" to your deck if you choose.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 4."
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Monere, Sandro and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
+          }
+        }
+      },
+      {
+        "act": 8,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "text",
+            "source": null,
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "This is your final stand against Monere, Sandro and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "formula",
+            "source": null,
+            "text": "Your starting tile is the one Marked 'H' \nMonere with Conflux on 1.\nSandro with Necropolis on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "text",
+            "source": null,
+            "text": "Randomly select from any near tiles and randomly select from any center tiles"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Capture all 3 towns"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "formula",
+            "source": null,
+            "text": "Roll and attack-die to spawn an corresponding AI faction hero on the center-field of their repective starting-tile on round 3,6,9,12 and 14"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "NA"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "text",
+            "source": null,
+            "text": "Feel accomplished."
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "formula",
+            "source": null,
+            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Playername) as Tarnum (Rampart) beat Monere, Sandro and Dracon in Wolo's random solo campaign on #difficulty'"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Tarnum (Rampart) the benevolent you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
+          }
+        }
+      }
+    ],
+    "coop": [
+      {
+        "act": 1,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "A",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "You are Tarnum (Rampart) the benevolent of Rampart and Valeska of Castle. Lately you and your ally have suffered great losses at the hand of your arc-rival Monere from Conflux. Ever since they allied themselves with Sandro and Dracon it has been only setback after setback, you must gather you strength and vanquish these brutes before all is lost."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "formula",
+            "source": null,
+            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nMonere :Place a defence stack token on Magic Elements when combat begins\nSandro :Place a stack token on any Necropolis Bronze units when combat begins\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Draw 3 neutral from any decks which you have a corresponding dwelling, keep the one with the lowest gold cost"
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Randomly select far tiles from F13, F14,F15, #F15 (swamp) F22, F23, F24, #F8 (grass)"
+          },
+          "row6": {
+            "label": "Starting Buildings",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "row7": {
+            "label": "Starting Resources",
+            "kind": "text",
+            "source": null,
+            "text": "1V"
+          },
+          "row8": {
+            "label": "Starting Income",
+            "kind": "text",
+            "source": null,
+            "text": "10G + 0BM + 0V"
+          },
+          "row9": {
+            "label": "Starting Army",
+            "kind": "roll",
+            "source": "army",
+            "text": "T1P + T4F"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "roll",
+            "source": "victoryAct1",
+            "text": "Reach Level 4."
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Gain 1 extra MP on round 2 and 4."
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Reinforce any one unit in your army for free"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 1. \nYou keep all gold, but must sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Tarnum (Rampart) the benevolent you must choose to go after Sandro(go to act-2) OR Dracon (go to act3) to weaken Monere's postion."
+          }
+        }
+      },
+      {
+        "act": 2,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "B",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N6, N9 (swamp) N18, N19 (el.air)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "1 far tile"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "formula",
+            "source": null,
+            "text": "Defeat the AI-faction-army of (Necropolis) controlled by Sandro"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Search (2) your discard pile at the end round 2 and 4"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your movement by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward, immediately start combat with 2 random neutral silver units. \nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nYou may purchase one building and recruit for you current resources.\nYou keep all gold, but must sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "With the defeat of Sandro's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 5)"
+          }
+        }
+      },
+      {
+        "act": 3,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "B",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Dracon is a complete idiot they are moving out to attack but they have not realized the weather and terrain are working against them, they must be eliminated before they are at our gates."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army have 1MP per turn, and is placed on the center field of the starting tile you did not choose."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N7,N8 (grass) #N3, N3 (plains)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on slowest non-stacked unit."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "F13"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "formula",
+            "source": null,
+            "text": "Defeat the AI-faction-hero of (Tower) controlled by Dracon"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "roll",
+            "source": "timedEvents",
+            "text": "Search (2) your discard pile at the end round 2 and 4"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your handsize by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nYou may purchase one building and recruit for you current resources.\nYou keep all gold, but must sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 6)"
+          }
+        }
+      },
+      {
+        "act": 4,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "C",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Your hero start At 'H1' and 'H2'\nAll center-fields of all tiles are BLOCKED.\nYou may not recruit any of you faction units in this act.\nYou may not build in this act.\nYou do not gain income on resource rounds.\nNeutral \"Sharpshooters\" and \"Sorceresses\" join your armies Players choose one each.\nYour secoundary hero is benched for this act."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use F19, F20, N2, N4 F16, F17 N2, N4"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Visit the end of the dungeon field \"E1\" and \"E2\" respectively"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "Lose 1 MP at round 1, 2 and 3.\nGain 1 MP at round 4 and 5"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 6 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "text",
+            "source": null,
+            "text": "Permanently increase you MP by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "Remove \"Sharpshooters from your army.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 3. \nYou keep your current army.\nYour income is reset to 10G, 0BM, 0V"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "You made it out just in time, but the cave has collapsed, Sandro and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
+          }
+        }
+      },
+      {
+        "act": 5,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "D",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "As you and you army gets settled in the new land it becomes clear this is Monere's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "You BM income is reset to 0.\nAdd 1 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N1,N4 (dead) N18, N19 (el.air) and Randomly select far tiles from #F1, #F2, #F3, #F7 (snow) F9, F6, F3, #F12 (highlands)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Air Elements on its first activation. (If few Air Elements is already on the board turn them to the pack side)"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Defeat the 3 AI faction armies"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "formula",
+            "source": null,
+            "text": "Spawn an AI faction hero (Conflux) on the center field of the center tile on round 2,4 and 6"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 8"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Permanently increase your expert level by 1"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "After claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 2. \nDiscard units until you only have 5.\nYou keep all gold, then sell all BM for 1G each and All V for 3G each"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "You surely dealt a vast blow to, Monere cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
+          }
+        }
+      },
+      {
+        "act": 6,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "E",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "Both Sandro and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "Your starting tiles is Marked 'H1' and 'H2'\nThe two other starting tiles are guarded by an AI-faction army of its faction, wall and arrow tower.\nFor all neutral combat your army size is limited to 4. \nConquering a town rewards 10G, 4BM and 1V, and increase you gold income by 5.\nAdd 1 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N6, N9 (swamp) N14, N15 (el.fire) and Randomly select far tiles from F2, F5,F8, #F5 (waste) F25, F26, F27, #F13 (highlands). The remaining starting tiles are Necropolis and Conflux"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Conquer the two faction towns"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "An AI (neutral) spawns on center-field of the center-tile at round 3."
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 9 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Reinforce any one unit in your army for free"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "You may add the spell \"Lightning bolt\" to your deck if you choose.\nYou may add the ability \"Air magic\" to your deck if you choose.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 3."
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Sandro and Dracon are fleeing to their master Monere Follow them and finish this once and for all (go to act 8)"
+          }
+        }
+      },
+      {
+        "act": 7,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "map",
+            "source": "F",
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "The red monolith was a one way the brutes baited you into a trap! and now you must fight the natives to survive"
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "text",
+            "source": null,
+            "text": "You start with your starting tile on the only starting tile.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them.\nAdd 2 to the rounds when determining AI army."
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "formula",
+            "source": null,
+            "text": "Use N2, N5 (waste) N18, N19 (el.air) and Randomly select far tiles from F12,F11,F10, F9 (grass) F25, F26, F27, #F13 (highlands)"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "Place a stack token on slowest non-stacked unit."
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Reach level 7 and defeat all 3 AI heroes"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "text",
+            "source": null,
+            "text": "Spawn a neutral AI-Hero on a center-field on one of the center-tiles roll an attack die to determined which one, on round 2,4 and 6"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "Round 8 (+1on hard, +2 on impossible)"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "roll",
+            "source": "completionReward",
+            "text": "Gain an Empowered Ability token then Search (2) the ability deck"
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "text",
+            "source": null,
+            "text": "You may add the spell \"Town portal\" to your deck if you choose.\nAfter claiming your completion reward you find the 9 cards from your starting deck you may remove any other cards. \nYour hero level is reset to 4."
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Monere, Sandro and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
+          }
+        }
+      },
+      {
+        "act": 8,
+        "fields": {
+          "map": {
+            "label": "MAP",
+            "kind": "text",
+            "source": null,
+            "text": ""
+          },
+          "story": {
+            "label": "Story",
+            "kind": "formula",
+            "source": null,
+            "text": "This is your final stand against Monere, Sandro and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
+          },
+          "actInfo": {
+            "label": "Act info",
+            "kind": "formula",
+            "source": null,
+            "text": "Your starting tiles is Marked 'H1' and 'H2' \nMonere with Conflux on 1.\nSandro with Necropolis on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
+          },
+          "tiles": {
+            "label": "Tiles",
+            "kind": "text",
+            "source": null,
+            "text": "Randomly select from any near tiles"
+          },
+          "row6": {
+            "label": "AI behavior (-1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
+          },
+          "row7": {
+            "label": "AI behavior (0)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Bronze ranged unit)"
+          },
+          "row8": {
+            "label": "AI behavior (+1)",
+            "kind": "roll",
+            "source": "aiBehaviour",
+            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+          },
+          "row9": {
+            "label": "AI info",
+            "kind": "text",
+            "source": null,
+            "text": "Roll an attack-dice for each behavior before drawing the enemy unit cards, to determined which behavior is active. (they stack if you roll the same). See AI-army tab to determined number of behaviors"
+          },
+          "tilesOnHand": {
+            "label": "Tiles on hand",
+            "kind": "text",
+            "source": null,
+            "text": "None"
+          },
+          "victory": {
+            "label": "Victory conditions",
+            "kind": "text",
+            "source": null,
+            "text": "Capture all 3 towns"
+          },
+          "timed": {
+            "label": "Timed Events",
+            "kind": "formula",
+            "source": null,
+            "text": "Roll and attack-die to spawn an corresponding AI faction hero on the center-field of their repective starting-tile on round 3,6,9,12 and 14"
+          },
+          "lastRound": {
+            "label": "Last round",
+            "kind": "text",
+            "source": null,
+            "text": "NA"
+          },
+          "reward": {
+            "label": "Completion reward",
+            "kind": "text",
+            "source": null,
+            "text": "Feel accomplished."
+          },
+          "completion": {
+            "label": "Completion Instructions",
+            "kind": "formula",
+            "source": null,
+            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Player1name) and (#Player2name) as Tarnum (Rampart) and Valeska beat Monere, Sandro and Dracon in Wolo's random coop campaign on #difficulty'"
+          },
+          "completionStory": {
+            "label": "Completion story",
+            "kind": "formula",
+            "source": null,
+            "text": "Tarnum (Rampart) the benevolent you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
+          }
+        }
+      }
+    ]
+  },
+  "reference": {
+    "heroes": {
+      "Castle": [
+        "Adelaide",
+        "Catherine",
+        "Lord Haart",
+        "Rion",
+        "Ingham",
+        "Valeska",
+        "Tarnum (Castle)"
+      ],
+      "Tower": [
+        "Dracon",
+        "Iona",
+        "Josephine",
+        "Solmyr",
+        "Cyra",
+        "Torosar"
+      ],
+      "Rampart": [
+        "Clancy",
+        "Gelu",
+        "Gem",
+        "Mephala",
+        "Ivor",
+        "Melodia",
+        "Tarnum (Rampart)"
+      ],
+      "Inferno": [
+        "Fiona",
+        "Rashka",
+        "Xyron",
+        "Zydar",
+        "Ash",
+        "Octavia"
+      ],
+      "Necropolis": [
+        "Sandro",
+        "Tamika",
+        "Vidomina",
+        "Lord Haart (Necropolis)",
+        "Moandor",
+        "Septienna"
+      ],
+      "Dungeon": [
+        "Alamar",
+        "Deemer",
+        "Jeddite",
+        "Mutare",
+        "Lorelei",
+        "Sephinroth",
+        "Tarnum (Dungeon)"
+      ],
+      "Fortress": [
+        "Bron",
+        "Adrienne",
+        "Tazar",
+        "Wystan",
+        "Gerwulf",
+        "Merist",
+        "Tarnum (Fortress)"
+      ],
+      "Stronghold": [
+        "Crag Hack",
+        "Dessa",
+        "Gundula",
+        "Shiva",
+        "Tarnum (Stronghold)",
+        "Yog"
+      ],
+      "Conflux": [
+        "Ciele",
+        "Erdamon",
+        "Luna",
+        "Monere",
+        "Pasis",
+        "Tarnum (Conflux)"
+      ],
+      "Cove": [
+        "Astra",
+        "Casmetra",
+        "Cassiopeia",
+        "Jeremy",
+        "Miriam",
+        "Zilare"
+      ]
+    },
+    "specialities": {
+      "Adelaide": "Deal 1 damage to the 3 fastest enemy units at their first activation.",
+      "Catherine": "Put a stack token on Crusaders when combat begins",
+      "Lord Haart": "Put a stack token on Fastest bronze unit when combat begins",
+      "Rion": "Remove 2 damage from any unit each round on their first possible activation.",
+      "Ingham": "Place a stack token on Zealots when combat begins",
+      "Valeska": "Place an attack stack token on Marksmen when combat begins",
+      "Tarnum (Castle)": "Deal 2 damage to the enemy unit with the lowest initiative at the beginning of every combat round.",
+      "Dracon": "Replace Magi with Enchanters, if packed add a stack-token",
+      "Iona": "Place a stack token on Genies when combat begins",
+      "Josephine": "Place a stack token on Iron Golems when combat begins",
+      "Solmyr": "Deal 1 damage to all enemy units at their first activation.",
+      "Cyra": "Increase all units initiative by 3 when combat begins.",
+      "Torosar": "Deal 1 damage to the enemy unit with the lowest initiative at the beginning of every combat round.",
+      "Clancy": "Place a stack token on Unicorns when combat begins",
+      "Gelu": "Replace Elves with Sharpshooters, if packed add a stack-token",
+      "Gem": "Remove 2 damage from any unit each round on their first possible activation.",
+      "Mephala": "Increase Defence of their first unit to be attacked by 2 each round",
+      "Ivor": "Place an attack stack token on Elves when combat begins.",
+      "Melodia": "When attacking roll 2 dice instead of one and resolve the highest.",
+      "Tarnum (Rampart)": "Add Sharpshooters to this heroes army.",
+      "Fiona": "Place a stack token on Cerberi when combat begins",
+      "Rashka": "Place a stack token on Efreet when combat begins",
+      "Xyron": "Deal 1 damage to the 3 slowest enemy units at their first activation.",
+      "Zydar": "Deal 2 damage on any activation once per round to a unit with 2 or less health.",
+      "Ash": "When a unit attack it gains +2 attack if it has no black cube (retal), then place a black cube on it.",
+      "Octavia": "When retaliating roll 3 dice instead of one and resolve the highest.",
+      "Sandro": "Place a stack token on any Necropolis Bronze units when combat begins",
+      "Tamika": "Place a stack token on Deard Knights when combat begins",
+      "Vidomina": "Place a stack token on any Necropolis Bronze units when combat begins",
+      "Lord Haart (Necropolis)": "Reduce damage from any retaliation by 1",
+      "Moandor": "Place an attack stack token on Litches when combat begins.",
+      "Septienna": "Deal 1 damage to all enemy units at the start of combat.",
+      "Alamar": "Uses a resurrection (ignores attack) on their first unit who flips or dies.",
+      "Deemer": "Deal 2 damage to all enemy ranged unit at their first activation.",
+      "Jeddite": "Increase initiative by 2 for all their units",
+      "Mutare": "Place a stack token on Black Dragons.",
+      "Lorelei": "Place an initiative stack token on Harpies when combat begins.",
+      "Sephinroth": "Place an attack stack token on all Bronze units.",
+      "Tarnum (Dungeon)": "Replace the lowest tier units with Neutral Black Dragons with a stack token.",
+      "Bron": "Place a stack token on Basilisks when combat begins",
+      "Adrienne": "Deal 2 damage to all enemy flying unit at their first activation.",
+      "Tazar": "Increase defence of their first 2 unit to be attacked by 1 each round",
+      "Wystan": "Place a stack token on Lizardmen when combat begins",
+      "Gerwulf": "Deal 1 damage to the enemy unit with the lowest initiative at the beginning of every combat round.",
+      "Merist": "Gain a Defense token at the start of each combat round.",
+      "Tarnum (Fortress)": "Place Two stack token on Basilisks when combat begins",
+      "Crag Hack": "Place a +1 attack token on all units at the beginning of combat.",
+      "Dessa": "Increase all units initiative by 2 when combat begins.",
+      "Gundula": "Increase all enemy units initiative by 2 (minimum of 1) when combat begins.",
+      "Shiva": "Place Two stack token on Thunderbirds when combat begins",
+      "Tarnum (Stronghold)": "Gain +5 attack on its first attack.",
+      "Yog": "Replace all Silver units with the creature bank Cyclops",
+      "Ciele": "Deals 2 damage to highest tier ranged units on every activation the first combat round.",
+      "Erdamon": "Summon 2 packs of Earth Elements when combat begins.",
+      "Luna": "Place a Fire Wall Token in front of any enemy gold units when combat begins.",
+      "Monere": "Place a defence stack token on Magic Elements when combat begins",
+      "Pasis": "Place a +1 attack token on all elements units at the beginning of combat.",
+      "Tarnum (Conflux)": "Replace all silver units with Enchanters then add a stack token to them, at the beginning of combat.",
+      "Astra": "Remove 2 damage from all units at the beginning of each combat round.",
+      "Casmetra": "Place a Initiative stack token on Sorceresses when combat begins",
+      "Cassiopeia": "Place 4 stack tokens on Oceanids when combat begins",
+      "Jeremy": "Discard enemy Permanent cards at the beginning of combat.",
+      "Miriam": "Discard a card from the enemy hard when your units activations ends.",
+      "Zilare": "Enemy ranged units are melee instead."
+    },
+    "aiArmy": [
+      {
+        "title": "AI-Hero",
+        "headers": [
+          "Easy",
+          "Normal",
+          "Hard",
+          "Impossible"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "1B",
+            "2B",
+            "3B",
+            "4B"
+          ],
+          [
+            "Round 2",
+            "1B",
+            "2B",
+            "4B",
+            "3B+2S"
+          ],
+          [
+            "Round 3",
+            "1B",
+            "3B",
+            "5B",
+            "2B+3S"
+          ],
+          [
+            "Round 4",
+            "1B+1S",
+            "4B",
+            "2B+2S",
+            "1B+4S"
+          ],
+          [
+            "Round 5",
+            "1B+1S",
+            "2S",
+            "3S",
+            "5S"
+          ],
+          [
+            "Round 6",
+            "1B+1S",
+            "2B+2S",
+            "2S+1G",
+            "3S+2G"
+          ],
+          [
+            "Round 7",
+            "2B+2S",
+            "3B+2S",
+            "2B+2S+1G",
+            "2S+3G"
+          ],
+          [
+            "Round 8",
+            "2B+2S",
+            "1B+2S+1G",
+            "3G",
+            "1S+4G"
+          ],
+          [
+            "Round 9",
+            "2B+2S",
+            "2S+2G",
+            "2S+3G",
+            "5G"
+          ],
+          [
+            "Round 10",
+            "1B+1S+1G",
+            "1B+2S+2G",
+            "4S+1A",
+            "4G+1A"
+          ],
+          [
+            "Round 11",
+            "1B+1S+1G",
+            "3S+2G",
+            "2S+2G+1A",
+            "3G+2A"
+          ],
+          [
+            "Round 12",
+            "1B+1S+1G",
+            "3S+1A",
+            "3G+1A",
+            "3G+2A"
+          ],
+          [
+            "Round 13",
+            "2B+2S+1G",
+            "2S+1G+1A",
+            "4G+1A",
+            "2G+3A"
+          ],
+          [
+            "Round 14",
+            "2B+2S+1G",
+            "1S+2G+1A",
+            "2A",
+            "1G+4A"
+          ],
+          [
+            "Round 15",
+            "1B+2S+2G",
+            "2A",
+            "3A",
+            "5A"
+          ],
+          [
+            "Round 16...",
+            "1B+2S+2G",
+            "2G+2A",
+            "4A",
+            "5A"
+          ]
+        ],
+        "behaviours": [
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "title": "AI-faction-Hero",
+        "headers": [
+          "Easy",
+          "Normal",
+          "Hard",
+          "Impossible"
+        ],
+        "rows": [
+          [
+            "Round 1",
+            "T1F",
+            "T1F+T2F",
+            "T1-2P",
+            "T1-4P"
+          ],
+          [
+            "Round 2",
+            "T1P",
+            "T1P+T2F",
+            "T1-2P",
+            "T1-5P"
+          ],
+          [
+            "Round 3",
+            "T1P+T2F",
+            "T1-3F",
+            "T1-3P",
+            "T1-5P"
+          ],
+          [
+            "Round 4",
+            "T1P+T2P+T3F",
+            "T1-4F",
+            "T1-3P",
+            "T2-6P"
+          ],
+          [
+            "Round 5",
+            "T1P+T2P+T3P",
+            "T1P+T2-4F",
+            "T1-3P",
+            "T2-6P"
+          ],
+          [
+            "Round 6",
+            "T1P+T2P+T3P",
+            "T1-5F",
+            "T1-4P",
+            "T2-6P"
+          ],
+          [
+            "Round 7",
+            "T1P+T2P+T3P",
+            "T1-4P+T5F",
+            "T1-4P",
+            "T2-6P"
+          ],
+          [
+            "Round 8",
+            "T1P+T2P+T3P",
+            "T1-5P",
+            "T1-5P",
+            "T3-6P + T7F"
+          ],
+          [
+            "Round 9",
+            "T1P+T2P+T3P+T4F",
+            "T1-5P",
+            "T1-5P",
+            "T3-6P + T7F"
+          ],
+          [
+            "Round 10",
+            "T1P+T2P+T3P+T4F",
+            "T1-5P",
+            "T1-5P",
+            "T3-7P"
+          ],
+          [
+            "Round 11",
+            "T1P+T2P+T3P+T4P",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 12",
+            "T1P+T2P+T3P+T5F",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 13",
+            "T1P+T2P+T3P+T4P+T5F",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 14",
+            "T1P+T2P+T3P+T4P+T5P",
+            "T2-6P",
+            "T2-6P",
+            "T3-7P"
+          ],
+          [
+            "Round 15",
+            "T1P+T2P+T3P+T4P+T5P",
+            "T2-6P",
+            "T3-6P + T7F",
+            "T3-7P"
+          ],
+          [
+            "Round 16...",
+            "T1P+T2P+T3P+T4P+T5P",
+            "T2-6P",
+            "T3-6P + T7F",
+            "T3-7P"
+          ]
+        ],
+        "behaviours": [
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            null,
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            null,
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            1,
+            3,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            2,
+            3
+          ],
+          [
+            null,
+            0,
+            2,
+            3,
+            3
+          ]
+        ]
+      }
+    ],
+    "behaviourCount": [
+      "No behavior",
+      "1 behavior",
+      "2 behavior",
+      "3 behavior"
+    ],
+    "aiRules": [
+      "The AI spawns at the center tile with 0MP unless otherwise specified.",
+      "The AI gains MP each round (default 3) which it moves towards the nearest player hero at the end of the round, disregarding \"Fog of war\" and can stand on any unrevealed field.",
+      "Spawn any new AI's before moving any currently active AI's",
+      "The AI army composition is determined at first combat encounter.",
+      "AI faction armies >faction< (if random) is determined when the field it stands on is revealed or it lands on a revealed field.",
+      "The AI army losses is permanent, unless otherwise specified",
+      "Battling the AI costs no MP to extend.",
+      "If two AI armies are nearest to the same player hero the furthest AI will move towards the second nearest hero if possible.",
+      "If the closest hero is hiding in a sanctuary, the AI will permanently move towards their town.",
+      "The AI does not take fields or mines.",
+      "The AI army will NOT use a monolith, Unless there is no path to any hero, or a hero used it this round.",
+      "Defeating any AI army gives ½XP and Search (4) artifact deck"
+    ],
+    "glossary": [
+      {
+        "term": "Enemy stack:",
+        "text": "Draw 5 random cards from the stack and initiate combat as normal, any enemy units who die are removed from the stack, the field is won when the last unit of the stack has been defeated.",
+        "note": ""
+      },
+      {
+        "term": "Reinforced enemy stack:",
+        "text": "Similar to the enemy stack, but when an enemy is killed draw a new unit card from the stack and place it on the the enemy back line.",
+        "note": ""
+      },
+      {
+        "term": "Resurrecting enemy stack:",
+        "text": "All enemy units in a combat must all be defeated to be removed from the stack otherwise they are return to the stack.",
+        "note": ""
+      },
+      {
+        "term": "B",
+        "text": "Bronze unit",
+        "note": "T1-3, for factions"
+      },
+      {
+        "term": "S",
+        "text": "Silver unit",
+        "note": "T4, T5 for factions"
+      },
+      {
+        "term": "G",
+        "text": "Gold unit",
+        "note": "T6, T7 for factions"
+      },
+      {
+        "term": "A",
+        "text": "Azure unit",
+        "note": ""
+      },
+      {
+        "term": "MA",
+        "text": "Magic Arrow",
+        "note": ""
+      },
+      {
+        "term": "MP",
+        "text": "Movement points",
+        "note": ""
+      },
+      {
+        "term": "AI mechanics",
+        "text": "A random selected strategy for the AI battles, can be replaced by the regular \"AI-card mechanics\"",
+        "note": ""
+      },
+      {
+        "term": "AI-Hero",
+        "text": "An AI army of neutral units who uses AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "Faction army",
+        "text": "An army of an unused faction does NOT use AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "AI-faction-Hero",
+        "text": "An army of an unused faction who uses AI mechanics.",
+        "note": ""
+      },
+      {
+        "term": "Army",
+        "text": "A selection of units which guards a single field.",
+        "note": ""
+      },
+      {
+        "term": "Hero",
+        "text": "A selection of units which can move around the map",
+        "note": ""
+      },
+      {
+        "term": "Stack",
+        "text": "A selection of units too large to defeat in a single combat.",
+        "note": ""
+      }
+    ]
+  }
+}

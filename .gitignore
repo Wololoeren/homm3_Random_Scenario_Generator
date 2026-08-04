@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+.DS_Store
+.env*.local
+
+# TortoiseGit's folder icon badge
+Desktop.ini
+git.ico
+
+# Source spreadsheets are downloaded on demand, see tools/README
+*.xlsx
