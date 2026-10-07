@@ -28,6 +28,8 @@ Fan-made, not affiliated with Ubisoft or Archon Studio.
   of which mark the enemy hero's starting tile in red; the briefing says that
   tile cannot be chosen. Act 3 also brings Act 2's beaten leader back as a
   second AI, so there is one chasing each player.
+- **Coop completion rewards** come in pairs, one per player, always different;
+  the players decide between them who takes which.
 - **Campaigns** roll a cast of five faction leaders (all different factions, as
   the sheet's `UNIQUE` enforces) and then eight Acts built around them. The
   story, briefings and victory conditions that the spreadsheet assembles with

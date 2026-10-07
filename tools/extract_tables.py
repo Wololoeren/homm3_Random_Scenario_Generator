@@ -159,8 +159,13 @@ SPECIALITY_OVERRIDES = {
 # timed event in the spreadsheet; rolling them from the same pool as Act 1
 # gives the middle of a campaign the same variety as its opening.
 CAMPAIGN_ACT_OVERRIDES = {
-    (2, "timed"): ("roll", "timedEvents"),
-    (3, "timed"): ("roll", "timedEvents"),
+    ("solo", 2, "timed"): ("roll", "timedEvents"),
+    ("solo", 3, "timed"): ("roll", "timedEvents"),
+    ("coop", 2, "timed"): ("roll", "timedEvents"),
+    ("coop", 3, "timed"): ("roll", "timedEvents"),
+    # Act 8's map cell is blank in both sheets. Coop has a layout of its own.
+    ("coop", 8, "map"): ("map", "G"),
+    ("solo", 8, "map"): ("map", "G"),
 }
 
 # Some of the coop map layouts mark one starting tile in red, which the sheets
@@ -169,6 +174,13 @@ RED_BORDER_NOTE = (
     "If the layout marks a starting tile with a red border, it cannot be chosen "
     "— it is reserved for the enemy hero."
 )
+
+# Cells the app replaces outright, keyed by (mode, act, field). Coop Act 3
+# named one specific tile where Act 2 hands out a far tile; with two players
+# drawing tiles it reads the same way as Act 2.
+CAMPAIGN_ACT_TEXT = {
+    ("coop", 3, "tilesOnHand"): "1 far tile",
+}
 
 # Lines the app adds to an Act's briefing, keyed by (mode, act, field).
 CAMPAIGN_ACT_APPEND = {
@@ -317,12 +329,16 @@ def campaign_acts(formulas, values, sheet, mode):
             if not label and not text:
                 continue
 
+            replacement = CAMPAIGN_ACT_TEXT.get((mode, n, name))
+            if replacement is not None:
+                text = replacement
+
             extra = CAMPAIGN_ACT_APPEND.get((mode, n, name))
             if extra:
                 text = (text + "\n" + extra) if text else extra
 
             kind, source = "text", None
-            override = CAMPAIGN_ACT_OVERRIDES.get((n, name))
+            override = CAMPAIGN_ACT_OVERRIDES.get((mode, n, name))
             if override:
                 kind, source = override
                 fields[name] = {

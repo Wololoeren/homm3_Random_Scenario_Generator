@@ -154,6 +154,46 @@ function coopTiles(id: string, disabled: Disabled): string {
   return `${first.text} ${tail}`;
 }
 
+/**
+ * An Act's tile instruction, which is two draws rather than one: a set each
+ * per player in coop, and a near set plus a far set in solo. Shared with the
+ * reroll, which would otherwise collapse it to a single draw.
+ */
+function rollTiles(
+  mode: CampaignMode,
+  act: number,
+  disabled: Disabled,
+): { source: string; text: string } {
+  if (mode === "coop") {
+    const source = act === 4 ? "dungeonTiles" : act === 1 ? "farTiles" : "nearTiles";
+    return { source, text: coopTiles(source, disabled) };
+  }
+  const near =
+    act === 7
+      ? "Randomly select from any near tiles"
+      : (pick(columnEntries("nearTiles", disabled))?.text ?? "");
+  const far = pick(columnEntries("farTiles", disabled))?.text ?? "";
+  // Act 6 also names the two enemy starting tiles; that goes in its own line
+  // so this one stays purely a roll.
+  return { source: "farTiles", text: `${near} and ${far}` };
+}
+
+/**
+ * Coop offers a completion reward per player and lets them decide who takes
+ * which, so the two are always different.
+ */
+function rollReward(disabled: Disabled, exclude?: string) {
+  const pool = columnEntries("completionReward", disabled);
+  const free = pool.filter((e) => e.id !== exclude);
+  return pick(free.length ? free : pool);
+}
+
+/** Does this Act build its tiles from two draws rather than one? */
+function tilesAreCombined(mode: CampaignMode, act: number): boolean {
+  const raw = campaignData.acts[mode].find((r) => r.act === act);
+  return raw?.fields.tiles?.kind === "formula";
+}
+
 function buildField(
   key: string,
   raw: RawAct["fields"][string],
@@ -180,18 +220,8 @@ function buildField(
     }
     // The tile formulas concatenate rolls rather than names.
     if (key === "tiles") {
-      if (mode === "coop") {
-        const source = act === 4 ? "dungeonTiles" : act === 1 ? "farTiles" : "nearTiles";
-        return { key, label: raw.label, source, text: coopTiles(source, disabled) };
-      }
-      const near =
-        act === 7
-          ? "Randomly select from any near tiles"
-          : (pick(columnEntries("nearTiles", disabled))?.text ?? "");
-      const far = pick(columnEntries("farTiles", disabled))?.text ?? "";
-      // Act 6 also names the two enemy starting tiles; that goes in its own
-      // line so this one stays purely a roll.
-      return { key, label: raw.label, source: "farTiles", text: `${near} and ${far}` };
+      const tiles = rollTiles(mode, act, disabled);
+      return { key, label: raw.label, ...tiles };
     }
     // No template: fall back to whatever the sheet last showed.
     return { key, label: raw.label, text: raw.text };
@@ -258,6 +288,29 @@ export function generateCampaign(
         label: "Remaining starting tiles",
         text: `${cast.enemies[1].faction} and ${cast.enemies[0].faction}`,
       });
+    }
+
+    // Coop splits the completion reward in two, one per player.
+    if (mode === "coop") {
+      const rewardAt = fields.findIndex((f) => f.key === "reward");
+      const reward = fields[rewardAt];
+      if (reward?.source) {
+        fields[rewardAt] = { ...reward, label: "Reward A" };
+        const lockKey = `act${rawAct.act}.reward2`;
+        const previousField = keptFields.get("reward2");
+        if (locked.has(lockKey) && previousField) {
+          fields.splice(rewardAt + 1, 0, previousField);
+        } else {
+          const entry = rollReward(disabled, reward.entryId);
+          fields.splice(rewardAt + 1, 0, {
+            key: "reward2",
+            label: "Reward B",
+            source: "completionReward",
+            entryId: entry?.id,
+            text: entry?.text ?? "—",
+          });
+        }
+      }
     }
 
     // In coop, the leader beaten in Act 2 comes back as a second AI in Act 3,
@@ -346,11 +399,28 @@ export function rerollCampaignField(
         return { ...a, map: pick(pool) ?? a.map };
       }
 
+      if (key === "tiles" && tilesAreCombined(campaign.mode, act)) {
+        const tiles = rollTiles(campaign.mode, act, disabled);
+        return {
+          ...a,
+          fields: a.fields.map((f) =>
+            f.key === "tiles" ? { ...f, ...tiles, entryId: undefined } : f,
+          ),
+        };
+      }
+
       return {
         ...a,
         fields: a.fields.map((f) => {
           if (f.key !== key || !f.source) return f;
-          const pool = columnEntries(f.source, disabled);
+          // Keep a field distinct from any sibling drawn from the same column,
+          // so the two coop rewards never come up the same.
+          const siblings = new Set(
+            a.fields
+              .filter((o) => o.key !== key && o.source === f.source && o.entryId)
+              .map((o) => o.entryId as string),
+          );
+          const pool = columnEntries(f.source, disabled).filter((e) => !siblings.has(e.id));
           const fresh = pool.filter((e) => e.id !== f.entryId);
           const entry = pick(fresh.length ? fresh : pool);
           return entry ? { ...f, entryId: entry.id, text: entry.text } : f;

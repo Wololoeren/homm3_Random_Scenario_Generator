@@ -57,6 +57,10 @@ MAP_POOL_OVERRIDES = {
         "9e1372b9b278.webp",
         "cac7fb47e4be.webp",
     ],
+    # The sheets never gave Act 8 a layout; this one marks the two player
+    # tiles H1/H2 and the three enemy tiles by their die result.
+    ("campaign", "coop", "G"): ["eece2aa8c763.webp"],
+    ("campaign", "solo", "G"): ["1e3ffc8f2d18.webp"],
 }
 
 

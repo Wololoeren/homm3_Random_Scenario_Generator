@@ -96,11 +96,18 @@ const SHARED: Record<string, Template> = {
 const ACT_ONE_RULES = [
   "The Starting tile must be your Faction's starting tile.",
   "Do not use Event cards for this campaign.",
+  "Add the following AI behaviors when fighting each of the other faction leaders throughout the campaign:",
+].join("\n");
+
+/**
+ * Rules that hold for the whole campaign rather than for Act 1, so they are
+ * printed once on the cast page instead of inside the first briefing.
+ */
+export const CAMPAIGN_RULES = [
   "Your buildings, income, units and secondary hero carry through the campaign unless otherwise specified.",
   "If your hero loses all units your campaign has failed and the game is over.",
   "If you do not fulfil the victory condition when the last round is over your campaign has failed and the game is over.",
-  "Add the following AI behaviors when fighting each of the other faction leaders throughout the campaign:",
-].join("\n");
+];
 
 function actOneInfo({ cast, speciality }: Ctx): string {
   const lines = cast.enemies.map((e) => `${e.hero}: ${speciality(e.hero)}`);

@@ -28,6 +28,7 @@ const CAMPAIGN_MAP_COLUMNS: { id: string; label: string }[] = [
   { id: "D", label: "Act 5" },
   { id: "E", label: "Act 6" },
   { id: "F", label: "Act 7" },
+  { id: "G", label: "Act 8" },
 ];
 
 interface Props {

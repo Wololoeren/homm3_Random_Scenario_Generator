@@ -5,6 +5,7 @@ import GameText from "./GameText";
 import { asset } from "@/lib/assets";
 import { campaignData, castLockKey } from "@/lib/campaign";
 import { heroWikiUrl } from "@/lib/wiki";
+import { CAMPAIGN_RULES } from "@/lib/campaignStory";
 import type { Act, ActField, Campaign } from "@/lib/campaignTypes";
 import type { Locks } from "@/lib/types";
 
@@ -57,6 +58,7 @@ function sectionFor(field: ActField): string {
     case "actInfo":
       return "rules";
     case "reward":
+    case "reward2":
     case "completion":
     case "completionStory":
       return "completion";
@@ -282,8 +284,18 @@ export default function CampaignSheet({
             map and your starting deck, then follow the completion instructions once
             you meet the victory condition. Each Act says which Act follows it.
           </p>
+          {CAMPAIGN_RULES.map((rule) => (
+            <p className="line fixed" key={rule}>
+              {rule}
+            </p>
+          ))}
           {campaign.mode === "coop" && (
             <>
+              <p className="line fixed">
+                Each Act offers two completion rewards, one per player. Agree between
+                you who takes which before claiming them — you may not both take the
+                same reward.
+              </p>
               <p className="line fixed">
                 Players may exchange Artifacts and Spells from their hands, as well as
                 Units and Resources, if their Main Heroes are standing on adjacent

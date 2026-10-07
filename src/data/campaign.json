@@ -1223,8 +1223,8 @@
         "fields": {
           "map": {
             "label": "MAP",
-            "kind": "text",
-            "source": null,
+            "kind": "map",
+            "source": "G",
             "text": ""
           },
           "story": {
@@ -1560,7 +1560,7 @@
             "label": "Tiles on hand",
             "kind": "text",
             "source": null,
-            "text": "F13"
+            "text": "1 far tile"
           },
           "victory": {
             "label": "Victory conditions",
@@ -1961,8 +1961,8 @@
         "fields": {
           "map": {
             "label": "MAP",
-            "kind": "text",
-            "source": null,
+            "kind": "map",
+            "source": "G",
             "text": ""
           },
           "story": {
