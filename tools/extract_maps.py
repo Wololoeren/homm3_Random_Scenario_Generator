@@ -39,6 +39,26 @@ QUALITY = 82
 SCENARIO_COOP_COLUMNS = {"A": 2, "B": 3, "C": 4, "D": 5, "E": 6}
 SCENARIO_CLASH_COLUMNS = {"F": 2, "G": 3, "H": 4, "I": 5, "J": 6}
 
+# Pools the app supplies itself instead of taking from the sheet, keyed by
+# (kind, slot, column). The files are committed under public/maps and are not
+# produced by this script, so do not wipe public/maps before re-running it.
+MAP_POOL_OVERRIDES = {
+    # Coop Acts 2 and 3 share column B. These layouts replace the sheet's,
+    # and three of them mark the enemy hero's starting tile in red.
+    ("campaign", "coop", "B"): [
+        "ee15160ed852.webp",
+        "6b2ed9810c14.webp",
+        "a9ec9dbf1c72.webp",
+        "7f704fa6720c.webp",
+        "dc39807305b7.webp",
+        "57fb19ae1b10.webp",
+        "dac8e4193ea4.webp",
+        "b4f09d198f8f.webp",
+        "9e1372b9b278.webp",
+        "cac7fb47e4be.webp",
+    ],
+}
+
 
 def sheet_parts(z, name_filter=None):
     """Yield (sheet_name, drawing_xml, rel_id -> media path) for sheets with drawings."""
@@ -235,9 +255,28 @@ def main(scen_path, camp_path):
                     [encode(z.read(p), out_dir, seen) for p in paths]
                 )
 
+    for (kind, slot, column), names in MAP_POOL_OVERRIDES.items():
+        manifest[kind][slot][column] = names
+
     dest = ROOT / "src" / "data" / "maps.json"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+    # An override leaves the pool it replaced on disk but unreferenced, so say so
+    # rather than letting dead files pile up in the repo.
+    referenced = {
+        name
+        for group in manifest.values()
+        for slot in group.values()
+        for names in slot.values()
+        for name in names
+    }
+    stray = sorted(
+        f.name for f in (ROOT / "public" / "maps").rglob("*.webp")
+        if f.name not in referenced
+    )
+    if stray:
+        print("unreferenced, safe to delete: %s" % ", ".join(stray))
 
     total = sum(
         f.stat().st_size for f in (ROOT / "public" / "maps").rglob("*.webp")

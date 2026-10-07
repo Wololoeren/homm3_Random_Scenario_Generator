@@ -886,6 +886,31 @@ body {
   color: #f0e8d4;
 }
 
+/* Heroes carry their AI speciality under the name, so they get a row each. */
+.entryList.wide {
+  columns: 1;
+}
+
+.entryList.wide label {
+  align-items: flex-start;
+}
+
+.entryList.wide label span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.heroName {
+  color: #e8e0cd;
+}
+
+.heroSpeciality {
+  font-size: 13px;
+  line-height: 1.35;
+  color: #9c9179;
+}
+
 .mapFilters {
   display: flex;
   flex-wrap: wrap;

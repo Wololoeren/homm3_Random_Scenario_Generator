@@ -24,6 +24,10 @@ Fan-made, not affiliated with Ubisoft or Archon Studio.
   [the community wiki](https://en.homm3bg.wiki/heroes/), and the link survives
   into the printed PDF. Slugs are derived in `src/lib/wiki.ts`; all 64 were
   checked against the live site.
+- **Coop Acts 2 and 3** use their own map layouts rather than the sheet's, three
+  of which mark the enemy hero's starting tile in red; the briefing says that
+  tile cannot be chosen. Act 3 also brings Act 2's beaten leader back as a
+  second AI, so there is one chasing each player.
 - **Campaigns** roll a cast of five faction leaders (all different factions, as
   the sheet's `UNIQUE` enforces) and then eight Acts built around them. The
   story, briefings and victory conditions that the spreadsheet assembles with

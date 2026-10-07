@@ -50,6 +50,7 @@ function sectionFor(field: ActField): string {
     case "victory":
       return "victory";
     case "timed":
+    case "reinforcement":
       return "timed";
     case "obelisk":
       return "obelisks";
@@ -281,6 +282,19 @@ export default function CampaignSheet({
             map and your starting deck, then follow the completion instructions once
             you meet the victory condition. Each Act says which Act follows it.
           </p>
+          {campaign.mode === "coop" && (
+            <>
+              <p className="line fixed">
+                Players may exchange Artifacts and Spells from their hands, as well as
+                Units and Resources, if their Main Heroes are standing on adjacent
+                Fields or both are standing in their own Town or Settlement.
+              </p>
+              <p className="line fixed">
+                Standing on a Trading Post, Town or Settlement, a player may send
+                Resources to any other player.
+              </p>
+            </>
+          )}
         </section>
       </Sheet>
 

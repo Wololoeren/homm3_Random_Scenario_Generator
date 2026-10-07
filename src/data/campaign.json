@@ -269,8 +269,8 @@
           "text": "Gain a secondary hero on round 5."
         },
         {
-          "id": "search-2-your-discard-pile-at-the-end-roun",
-          "text": "Search (2) your discard pile at the end round 2 and 4"
+          "id": "search-2-your-discard-pile-at-the-end-of-r",
+          "text": "Search (2) your discard pile at the end of round 2 and 4"
         },
         {
           "id": "roll-a-treasure-dice-and-resolve-its-outcome",
@@ -590,19 +590,19 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "You are Tarnum (Rampart) the benevolent of Rampart. Lately you suffered great losses at the hand of your arc-rival Monere from Conflux. Ever since they allied themselves with Sandro and Dracon it has been only setback after setback, you must gather you strength and vanquish these brutes before all is lost."
+            "text": "You are Ash the grumpy of Inferno. Lately you suffered great losses at the hand of your arc-rival Tazar from Fortress. Ever since they allied themselves with Dessa and Dracon it has been only setback after setback, you must gather you strength and vanquish these devils before all is lost."
           },
           "actInfo": {
             "label": "Act info",
             "kind": "formula",
             "source": null,
-            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nMonere :Place a defence stack token on Magic Elements when combat begins\nSandro :Place a stack token on any Necropolis Bronze units when combat begins\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Roll 1 treasure and 1 resource -dice, resolve 1"
+            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nTazar :Increase defence of their first 2 unit to be attacked by 1 each round\nDessa :Increase all units initiative by 2 when combat begins.\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Resolve 1 treasure dice"
           },
           "tiles": {
             "label": "Tiles",
             "kind": "roll",
             "source": "farTiles",
-            "text": "Randomly select far tiles from #F4, #F8, F6, F3 (plains)"
+            "text": "Randomly select far tiles from F22, F23, F24, #F8 (grass)"
           },
           "row6": {
             "label": "Starting Buildings",
@@ -626,7 +626,7 @@
             "label": "Starting Army",
             "kind": "roll",
             "source": "army",
-            "text": "Search (2) Neutral bronze units twice"
+            "text": "T1P + T2F + T3F"
           },
           "tilesOnHand": {
             "label": "Tiles on hand",
@@ -644,7 +644,7 @@
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Gain 1 extra MP on round 2 and 4."
+            "text": "Gain a random bronze neutral unit at the beginning of round 3."
           },
           "lastRound": {
             "label": "Last round",
@@ -656,7 +656,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Reinforce any one unit in your army for free"
+            "text": "Search (5) the ability deck"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -668,7 +668,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Tarnum (Rampart) the benevolent you must choose to go after Sandro(go to act-2) OR Dracon (go to act3) to weaken Monere's postion."
+            "text": "Ash the grumpy you must choose to go after Dessa(go to act-2) OR Dracon (go to act3) to weaken Tazar's postion."
           }
         }
       },
@@ -685,37 +685,37 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
+            "text": "Dessa is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
           },
           "actInfo": {
             "label": "Act info",
             "kind": "text",
             "source": null,
-            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles."
+            "text": "Choose one of the starting tile locations and place your faction starting tile there.\nThe AI army is determined according to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles."
           },
           "tiles": {
             "label": "Tiles",
             "kind": "roll",
             "source": "nearTiles",
-            "text": "Use N18, N19 (el.air)"
+            "text": "Use N11, N12 (lava)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+            "text": "AI's add 1 Attack on first and second attack"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+            "text": "AI casts Fire Shield (0) on its fastest unit on their first activation"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on slowest non-stacked unit."
+            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
           },
           "row9": {
             "label": "AI info",
@@ -733,13 +733,13 @@
             "label": "Victory conditions",
             "kind": "formula",
             "source": null,
-            "text": "Defeat the AI-faction-army of (Necropolis) controlled by Sandro"
+            "text": "Defeat the AI-faction-army of (Stronghold) controlled by Dessa"
           },
           "timed": {
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Search (2) your discard pile at the end round 2 and 4"
+            "text": "Search (2) your discard pile on round 2 and 4"
           },
           "lastRound": {
             "label": "Last round",
@@ -751,7 +751,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your expert level by 1"
+            "text": "Search (5) the artifact deck"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -763,7 +763,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "With the defeat of Sandro's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 5)"
+            "text": "With the defeat of Dessa's army they flee in shame, you may follow them(go to act 4) or push take the fight to Tazar(go to act 5)"
           }
         }
       },
@@ -786,31 +786,31 @@
             "label": "Act info",
             "kind": "text",
             "source": null,
-            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army have 1MP per turn, and is placed on the center field of the starting tile you did not choose."
+            "text": "Choose one of the starting tile locations and place your faction starting tile there.\nThe AI army is determined according to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army has 1MP per turn, and is placed on the center field of the starting tile you did not choose."
           },
           "tiles": {
             "label": "Tiles",
             "kind": "roll",
             "source": "nearTiles",
-            "text": "Use N18, N19 (el.air)"
+            "text": "Use N20, N21 (el. earth)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's paralyze your next unit after its first activation."
+            "text": "AI's add 1 Attack on first and second attack"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's discard a random card from your hand on its first activation."
+            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
+            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
           },
           "row9": {
             "label": "AI info",
@@ -834,7 +834,7 @@
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Search (2) your discard pile at the end round 2 and 4"
+            "text": "Search (2) your discard pile on round 2 and 4"
           },
           "lastRound": {
             "label": "Last round",
@@ -846,7 +846,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your movement by 1"
+            "text": "Permanently increase your expert level by 1"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -858,7 +858,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 6)"
+            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Tazar(go to act 6)"
           }
         }
       },
@@ -875,7 +875,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
+            "text": "Dessa and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
           },
           "actInfo": {
             "label": "Act info",
@@ -887,7 +887,7 @@
             "label": "Tiles",
             "kind": "roll",
             "source": "dungeonTiles",
-            "text": "Use F19, #F5, U1, U5"
+            "text": "Use F19, #F5, N2, N4"
           },
           "tilesOnHand": {
             "label": "Tiles on hand",
@@ -929,7 +929,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "You made it out just in time, but the cave has collapsed, Sandro and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
+            "text": "You made it out just in time, but the cave has collapsed, Dessa and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
           }
         }
       },
@@ -946,7 +946,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "As you and you army gets settled in the new land it becomes clear this is Monere's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
+            "text": "As you and you army gets settled in the new land it becomes clear this is Tazar's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
           },
           "actInfo": {
             "label": "Act info",
@@ -958,25 +958,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N7,N8 (grass) and Randomly select far tiles from F1, F4, F7, #F6 (dead)"
+            "text": "Use N2, N5 (waste) and Randomly select far tiles from F25, F26, F27, #F13 (highlands)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 3 initiative to its fastest ranged unit (melee if no ranged units) on its first activation"
+            "text": "AI casts Fire Shield (0) on its fastest unit on their first activation"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+            "text": "AI's paralyze your next unit after its first activation."
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 Attack on first and second attack"
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
           },
           "row9": {
             "label": "AI info",
@@ -1000,7 +1000,7 @@
             "label": "Timed Events",
             "kind": "formula",
             "source": null,
-            "text": "Spawn an AI faction hero (Conflux) on the center field of the center tile on round 2,4 and 6"
+            "text": "Spawn an AI faction hero (Fortress) on the center field of the center tile on round 2,4 and 6"
           },
           "lastRound": {
             "label": "Last round",
@@ -1012,7 +1012,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
+            "text": "Permanently increase your handsize by 1"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1024,7 +1024,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "You surely dealt a vast blow to, Monere cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
+            "text": "You surely dealt a vast blow to, Tazar cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
           }
         }
       },
@@ -1041,7 +1041,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Both Sandro and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
+            "text": "Both Dessa and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
           },
           "actInfo": {
             "label": "Act info",
@@ -1053,25 +1053,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N14, N15 (el.fire) and Randomly select far tiles from F19, F20, F21, #F11 (grass). The remaining starting tiles are Necropolis and Conflux"
+            "text": "Use N18, N19 (el.air) and Randomly select far tiles from F25, F26, F27, #F13 (highlands). The remaining starting tiles are Stronghold and Fortress"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on slowest non-stacked unit."
+            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 Attack on first and second attack"
+            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Gold ranged unit)"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
           },
           "row9": {
             "label": "AI info",
@@ -1107,7 +1107,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your movement by 1"
+            "text": "Search (5) the artifact deck"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1119,7 +1119,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro and Dracon are fleeing to their master Monere Follow them and finish this once and for all (go to act 8)"
+            "text": "Dessa and Dracon are fleeing to their master Tazar Follow them and finish this once and for all (go to act 8)"
           }
         }
       },
@@ -1136,7 +1136,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "The red monolith was a one way the brutes baited you into a trap! and now you must fight the natives to survive"
+            "text": "The red monolith was a one way the devils baited you into a trap! and now you must fight the natives to survive"
           },
           "actInfo": {
             "label": "Act info",
@@ -1148,25 +1148,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Randomly select from any near tiles and Randomly select far tiles from #F4, #F8, F6, F3 (plains)"
+            "text": "Randomly select from any near tiles and Randomly select far tiles from #F1, #F2, #F3, #F7 (snow)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Bronze ranged unit)"
+            "text": "AI's add 1 Attack on first and second attack"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+            "text": "Place a stack token on slowest non-stacked unit."
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
           },
           "row9": {
             "label": "AI info",
@@ -1202,7 +1202,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Search (8) the Spell deck"
+            "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1214,7 +1214,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Monere, Sandro and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
+            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Tazar, Dessa and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
           }
         }
       },
@@ -1231,13 +1231,13 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "This is your final stand against Monere, Sandro and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
+            "text": "This is your final stand against Tazar, Dessa and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
           },
           "actInfo": {
             "label": "Act info",
             "kind": "formula",
             "source": null,
-            "text": "Your starting tile is the one Marked 'H' \nMonere with Conflux on 1.\nSandro with Necropolis on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
+            "text": "Your starting tile is the one Marked 'H' \nTazar with Fortress on 1.\nDessa with Stronghold on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
           },
           "tiles": {
             "label": "Tiles",
@@ -1249,19 +1249,19 @@
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Silver ranged unit)"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
+            "text": "AI's after its first activation it prevents you from casting MA in this combat."
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
           },
           "row9": {
             "label": "AI info",
@@ -1303,13 +1303,13 @@
             "label": "Completion Instructions",
             "kind": "formula",
             "source": null,
-            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Playername) as Tarnum (Rampart) beat Monere, Sandro and Dracon in Wolo's random solo campaign on #difficulty'"
+            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Playername) as Ash beat Tazar, Dessa and Dracon in Wolo's random solo campaign on #difficulty'"
           },
           "completionStory": {
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Tarnum (Rampart) the benevolent you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
+            "text": "Ash the grumpy you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
           }
         }
       }
@@ -1328,19 +1328,19 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "You are Tarnum (Rampart) the benevolent of Rampart and Valeska of Castle. Lately you and your ally have suffered great losses at the hand of your arc-rival Monere from Conflux. Ever since they allied themselves with Sandro and Dracon it has been only setback after setback, you must gather you strength and vanquish these brutes before all is lost."
+            "text": "You are Ash the grumpy of Inferno and Tarnum (Conflux) of Conflux. Lately you and your ally have suffered great losses at the hand of your arc-rival Tazar from Fortress. Ever since they allied themselves with Dessa and Dracon it has been only setback after setback, you must gather you strength and vanquish these devils before all is lost."
           },
           "actInfo": {
             "label": "Act info",
             "kind": "formula",
             "source": null,
-            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nMonere :Place a defence stack token on Magic Elements when combat begins\nSandro :Place a stack token on any Necropolis Bronze units when combat begins\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Draw 3 neutral from any decks which you have a corresponding dwelling, keep the one with the lowest gold cost"
+            "text": "The Starting tile must be your factions stating tile. \nDo not use Event-cards for this campaign.\nYour buildings, income, units and secondary hero will follow through the campaign unless otherwise specified.\nIf your hero looses all units your campaign has fail and the game is over.\nIf you do not fulfill the victory condition when the last round is over your campaign has fail and the game is over.\nAdd the following AI behaviors when fighting each of the other faction leaders throughout the campaign:\nTazar :Increase defence of their first 2 unit to be attacked by 1 each round\nDessa :Increase all units initiative by 2 when combat begins.\nDracon :Replace Magi with Enchanters, if packed add a stack-token\nWhen Visiting an Obelisk: Roll a resource dice and gain 1 step of the result as income (Only for the first player to visit)"
           },
           "tiles": {
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Randomly select far tiles from F13, F14,F15, #F15 (swamp) F22, F23, F24, #F8 (grass)"
+            "text": "Randomly select far tiles from F13, F14,F15, #F15 (swamp) F16, F17, F18, #F10 (lava)"
           },
           "row6": {
             "label": "Starting Buildings",
@@ -1364,7 +1364,7 @@
             "label": "Starting Army",
             "kind": "roll",
             "source": "army",
-            "text": "T1P + T4F"
+            "text": "A random neutral bronze and silver unit"
           },
           "tilesOnHand": {
             "label": "Tiles on hand",
@@ -1376,13 +1376,13 @@
             "label": "Victory conditions",
             "kind": "roll",
             "source": "victoryAct1",
-            "text": "Reach Level 4."
+            "text": "Recruit few of Silver units"
           },
           "timed": {
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Gain 1 extra MP on round 2 and 4."
+            "text": "Remove black cubes from your starting tile on round 2."
           },
           "lastRound": {
             "label": "Last round",
@@ -1394,7 +1394,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Reinforce any one unit in your army for free"
+            "text": "Search (5) the ability deck"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1406,7 +1406,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Tarnum (Rampart) the benevolent you must choose to go after Sandro(go to act-2) OR Dracon (go to act3) to weaken Monere's postion."
+            "text": "Ash the grumpy you must choose to go after Dessa(go to act-2) OR Dracon (go to act3) to weaken Tazar's postion."
           }
         }
       },
@@ -1423,37 +1423,37 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
+            "text": "Dessa is a backstabbing coward hiding behind tall walls, they must be eliminated before the reinforcement arrives!"
           },
           "actInfo": {
             "label": "Act info",
             "kind": "text",
             "source": null,
-            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles."
+            "text": "Choose one of the starting tile locations and place your faction starting tile there.\nThe AI army is determined according to the AI-army tab, increase AI-army size by 1 additional round.\nThis AI army does not move, and is placed on the center field of the starting tile you did not choose, when attacking the AI army use the walls and gate obstacles.\nIf the layout marks a starting tile with a red border, it cannot be chosen — it is reserved for the enemy hero."
           },
           "tiles": {
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N6, N9 (swamp) N18, N19 (el.air)"
+            "text": "Use N6, N9 (swamp) N14, N15 (el.fire)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+            "text": "AI's add 1 defence on first and second attack which may kill their unit."
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
           },
           "row9": {
             "label": "AI info",
@@ -1471,13 +1471,13 @@
             "label": "Victory conditions",
             "kind": "formula",
             "source": null,
-            "text": "Defeat the AI-faction-army of (Necropolis) controlled by Sandro"
+            "text": "Defeat the AI-faction-army of (Stronghold) controlled by Dessa"
           },
           "timed": {
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Search (2) your discard pile at the end round 2 and 4"
+            "text": "Search (2) your discard pile on round 2 and 4"
           },
           "lastRound": {
             "label": "Last round",
@@ -1489,7 +1489,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your movement by 1"
+            "text": "Permanently increase your expert level by 1"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1501,7 +1501,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "With the defeat of Sandro's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 5)"
+            "text": "With the defeat of Dessa's army they flee in shame, you may follow them(go to act 4) or push take the fight to Tazar(go to act 5)"
           }
         }
       },
@@ -1524,31 +1524,31 @@
             "label": "Act info",
             "kind": "text",
             "source": null,
-            "text": "Choose one of the starting tile locations and place you faction starting tile there.\nThe AI army is determined acording to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army have 1MP per turn, and is placed on the center field of the starting tile you did not choose."
+            "text": "Choose one of the starting tile locations and place your faction starting tile there.\nThe AI army is determined according to the AI-army tab, increase AI-army size by 2 rounds.\nThis AI army has 1MP per turn, and is placed on the center field of the starting tile you did not choose.\nIf the layout marks a starting tile with a red border, it cannot be chosen — it is reserved for the enemy hero."
           },
           "tiles": {
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N7,N8 (grass) #N3, N3 (plains)"
+            "text": "Use N7,N8 (grass) N14, N15 (el.fire)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+            "text": "Place a stack token on lowest tier ranged and non-stacked unit.(melee if no ranged)"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on slowest non-stacked unit."
+            "text": "AI summons Few Air Elements on its first activation. (If few Air Elements is already on the board turn them to the pack side)"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI places 2 Quicksand tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+            "text": "AI's paralyze your next unit after its first activation."
           },
           "row9": {
             "label": "AI info",
@@ -1572,7 +1572,7 @@
             "label": "Timed Events",
             "kind": "roll",
             "source": "timedEvents",
-            "text": "Search (2) your discard pile at the end round 2 and 4"
+            "text": "Search (2) your discard pile on round 2 and 4"
           },
           "lastRound": {
             "label": "Last round",
@@ -1584,7 +1584,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your handsize by 1"
+            "text": "Search (5) the artifact deck"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1596,7 +1596,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Monere(go to act 6)"
+            "text": "With the defeat of Dracon's army they flee in shame, you may follow them(go to act 4) or push take the fight to Tazar(go to act 6)"
           }
         }
       },
@@ -1613,7 +1613,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
+            "text": "Dessa and Dracon met here! and fled through this cave, there is some ominous rumbleling going on, they are casting an earthquake spell to collapse the cave, you must find you way out before you buried alive!"
           },
           "actInfo": {
             "label": "Act info",
@@ -1625,7 +1625,7 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use F19, F20, N2, N4 F16, F17 N2, N4"
+            "text": "Use F19, F20, U1, U5 F19, #F5, N2, N4"
           },
           "tilesOnHand": {
             "label": "Tiles on hand",
@@ -1667,7 +1667,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "You made it out just in time, but the cave has collapsed, Sandro and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
+            "text": "You made it out just in time, but the cave has collapsed, Dessa and Dracon are nowhere to be found, but three portals are visible in a clearing a green(act5), yellow(act6) and red(act7) -portal. Which do you choose?"
           }
         }
       },
@@ -1684,7 +1684,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "As you and you army gets settled in the new land it becomes clear this is Monere's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
+            "text": "As you and you army gets settled in the new land it becomes clear this is Tazar's land, they surely been stripped of building materials by now. scouts report army reinforcements heading through these parts every week be prepared for an ambush!"
           },
           "actInfo": {
             "label": "Act info",
@@ -1696,25 +1696,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N1,N4 (dead) N18, N19 (el.air) and Randomly select far tiles from #F1, #F2, #F3, #F7 (snow) F9, F6, F3, #F12 (highlands)"
+            "text": "Use N7,N8 (grass) #N1, #N2 (snow) and Randomly select far tiles from #F1, #F2, #F3, #F7 (snow) F22, F23, F24, #F8 (grass)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
+            "text": "AI summons Few Earth Elements on its first activation. (If few Earth Elements is already on the board turn them to the pack side)"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Air Elements on its first activation. (If few Air Elements is already on the board turn them to the pack side)"
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+            "text": "AI's after its first activation it prevents you from casting MA in this combat."
           },
           "row9": {
             "label": "AI info",
@@ -1738,7 +1738,7 @@
             "label": "Timed Events",
             "kind": "formula",
             "source": null,
-            "text": "Spawn an AI faction hero (Conflux) on the center field of the center tile on round 2,4 and 6"
+            "text": "Spawn an AI faction hero (Fortress) on the center field of the center tile on round 2,4 and 6"
           },
           "lastRound": {
             "label": "Last round",
@@ -1750,7 +1750,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Permanently increase your expert level by 1"
+            "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1762,7 +1762,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "You surely dealt a vast blow to, Monere cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
+            "text": "You surely dealt a vast blow to, Tazar cutting them of from their reinforcements thou it was not without loss, we must continue the fight and press our advantage go to act6"
           }
         }
       },
@@ -1779,7 +1779,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "Both Sandro and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
+            "text": "Both Dessa and Dracon are licking their wounds, now is the time to hit them where it hurts, capture their towns before they recover!"
           },
           "actInfo": {
             "label": "Act info",
@@ -1791,25 +1791,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N6, N9 (swamp) N14, N15 (el.fire) and Randomly select far tiles from F2, F5,F8, #F5 (waste) F25, F26, F27, #F13 (highlands). The remaining starting tiles are Necropolis and Conflux"
+            "text": "Use N6, N9 (swamp) N18, N19 (el.air) and Randomly select far tiles from F2, F5,F8, #F5 (waste) F19, F20, F21, #F11 (grass). The remaining starting tiles are Stronghold and Fortress"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
+            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
+            "text": "AI's add 3 initiative to its fastest ranged unit (melee if no ranged units) on its first activation"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
+            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
           },
           "row9": {
             "label": "AI info",
@@ -1845,7 +1845,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Reinforce any one unit in your army for free"
+            "text": "Remove up to 2 Statistic cards from your hand or discard pile. Take up to 2 of the same type Empowered Statistic cards."
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1857,7 +1857,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Sandro and Dracon are fleeing to their master Monere Follow them and finish this once and for all (go to act 8)"
+            "text": "Dessa and Dracon are fleeing to their master Tazar Follow them and finish this once and for all (go to act 8)"
           }
         }
       },
@@ -1874,7 +1874,7 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "The red monolith was a one way the brutes baited you into a trap! and now you must fight the natives to survive"
+            "text": "The red monolith was a one way the devils baited you into a trap! and now you must fight the natives to survive"
           },
           "actInfo": {
             "label": "Act info",
@@ -1886,25 +1886,25 @@
             "label": "Tiles",
             "kind": "formula",
             "source": null,
-            "text": "Use N2, N5 (waste) N18, N19 (el.air) and Randomly select far tiles from F12,F11,F10, F9 (grass) F25, F26, F27, #F13 (highlands)"
+            "text": "Use N7,N8 (grass) N14, N15 (el.fire) and Randomly select far tiles from F12,F11,F10, F9 (grass) F1, F4, F7, #F6 (dead)"
           },
           "row6": {
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI places 2 Land Mine tokens on the battlefield on its first activation. (prioritise fields in front of high value enemies, and center row)"
+            "text": "AI's remove retaliation token on its highest defence unit on the first of any activation where it is possible."
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "Place a stack token on slowest non-stacked unit."
+            "text": "AI uses a resurrection (ignores attack) on its first unit who flips or dies."
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI summons Few Fire Elements on its first activation. (If few Fire Elements is already on the board turn them to the pack side)"
+            "text": "AI's paralyze your next unit after its first activation."
           },
           "row9": {
             "label": "AI info",
@@ -1940,7 +1940,7 @@
             "label": "Completion reward",
             "kind": "roll",
             "source": "completionReward",
-            "text": "Gain an Empowered Ability token then Search (2) the ability deck"
+            "text": "Permanently increase your handsize by 1"
           },
           "completion": {
             "label": "Completion Instructions",
@@ -1952,7 +1952,7 @@
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Monere, Sandro and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
+            "text": "The natives of this land now recognize you as the ruler, they show you a portal to central part of Tazar, Dessa and Dracon's Kingdom, now is the time to finish them once and for all (go to act 8)"
           }
         }
       },
@@ -1969,13 +1969,13 @@
             "label": "Story",
             "kind": "formula",
             "source": null,
-            "text": "This is your final stand against Monere, Sandro and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
+            "text": "This is your final stand against Tazar, Dessa and Dracon. They will throw all their remaining forces against you to try and protect their last town, Make them regret they ever heard of you."
           },
           "actInfo": {
             "label": "Act info",
             "kind": "formula",
             "source": null,
-            "text": "Your starting tiles is Marked 'H1' and 'H2' \nMonere with Conflux on 1.\nSandro with Necropolis on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
+            "text": "Your starting tiles is Marked 'H1' and 'H2' \nTazar with Fortress on 1.\nDessa with Stronghold on 0.\nDracon with Tower on -1\nCapturing a town stop armies from spawning there(nothing happend when rolled)\nThey are guarded by a faction army with a stack-token on its silver units (no walls, no arrrow towers.\nConquering any of the center-tile level 7 field gives you 25G Then you may draw 5 Azure neutral units and buy any of them"
           },
           "tiles": {
             "label": "Tiles",
@@ -1987,19 +1987,19 @@
             "label": "AI behavior (-1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
+            "text": "AI's add 1 Attack on first and second ranged attack (melee attack if no ranged units)"
           },
           "row7": {
             "label": "AI behavior (0)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's cast a 2 damage MA on its first activation each round (targeting as if it was a Bronze ranged unit)"
+            "text": "AI summons Few Water Elements on its first activation.(If few Water Elements is already on the board turn them to the pack side)"
           },
           "row8": {
             "label": "AI behavior (+1)",
             "kind": "roll",
             "source": "aiBehaviour",
-            "text": "AI's add 1 defence on first and second attack which may kill their unit."
+            "text": "AI heals the highest defence unit with at least 2 damage taken by 2 on the first of any activation where it is possible each round."
           },
           "row9": {
             "label": "AI info",
@@ -2041,13 +2041,13 @@
             "label": "Completion Instructions",
             "kind": "formula",
             "source": null,
-            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Player1name) and (#Player2name) as Tarnum (Rampart) and Valeska beat Monere, Sandro and Dracon in Wolo's random coop campaign on #difficulty'"
+            "text": "Take a picture of your M&M deck and remaining units and post it on discord with the description: 'I, (#Player1name) and (#Player2name) as Ash and Tarnum (Conflux) beat Tazar, Dessa and Dracon in Wolo's random coop campaign on #difficulty'"
           },
           "completionStory": {
             "label": "Completion story",
             "kind": "formula",
             "source": null,
-            "text": "Tarnum (Rampart) the benevolent you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
+            "text": "Ash the grumpy you are victorious, now the vast new conquered kingdom will live under your rule, congratulation"
           }
         }
       }
@@ -2179,7 +2179,7 @@
       "Mutare": "Place a stack token on Black Dragons.",
       "Lorelei": "Place an initiative stack token on Harpies when combat begins.",
       "Sephinroth": "Place an attack stack token on all Bronze units.",
-      "Tarnum (Dungeon)": "Replace the lowest tier units with Neutral Black Dragons with a stack token.",
+      "Tarnum (Dungeon)": "Replace the two lowest cost non-bronze unit with Dragon Utopia Black Dragons with an attack-stack-token on it.",
       "Bron": "Place a stack token on Basilisks when combat begins",
       "Adrienne": "Deal 2 damage to all enemy flying unit at their first activation.",
       "Tazar": "Increase defence of their first 2 unit to be attacked by 1 each round",

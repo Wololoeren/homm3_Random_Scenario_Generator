@@ -88,6 +88,7 @@ function EntrySection({
   disabled,
   onChange,
   render,
+  wide,
 }: {
   title: string;
   storageKey: string;
@@ -95,6 +96,8 @@ function EntrySection({
   disabled: Disabled;
   onChange: (next: Disabled) => void;
   render?: (text: string) => React.ReactNode;
+  /** One entry per row, for entries that carry a second line of detail. */
+  wide?: boolean;
 }) {
   const off = disabled[storageKey] ?? [];
   return (
@@ -120,7 +123,7 @@ function EntrySection({
         )
       }
     >
-      <ul className="entryList">
+      <ul className={wide ? "entryList wide" : "entryList"}>
         {entries.map((entry) => (
           <li key={entry.id}>
             <label>
@@ -266,6 +269,7 @@ function CampaignOptions({ disabled, onChange }: Props) {
   const [mapMode, setMapMode] = useState<CampaignMode>("solo");
   const [mapColumn, setMapColumn] = useState("A");
   const heroes = campaignData.reference.heroes;
+  const specialities = campaignData.reference.specialities;
 
   return (
     <>
@@ -294,7 +298,13 @@ function CampaignOptions({ disabled, onChange }: Props) {
           entries={names.map((name) => ({ id: name, text: name }))}
           disabled={disabled}
           onChange={onChange}
-          render={(text) => text}
+          wide
+          render={(name) => (
+            <>
+              <span className="heroName">{name}</span>
+              <span className="heroSpeciality">{specialities[name]}</span>
+            </>
+          )}
         />
       ))}
 

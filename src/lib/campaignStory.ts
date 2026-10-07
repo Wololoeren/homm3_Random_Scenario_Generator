@@ -140,6 +140,12 @@ const SOLO: Record<string, Template> = {
 
 const COOP: Record<string, Template> = {
   ...SHARED,
+  // Act 2's beaten leader comes back as a second AI, so the two players are
+  // each chased by one of them.
+  "3.reinforcement": ({ cast }) => {
+    const { e2 } = names(cast);
+    return `At the beginning of round 2, ${e2.hero} of ${e2.faction} returns as a second AI-faction-hero. They move towards whichever player the other AI is not moving towards.`;
+  },
   "1.story": ({ cast }) => {
     const { p1, p2, e1, e2, e3 } = names(cast);
     return `You are ${p1.hero} ${p1.epithet} of ${p1.faction} and ${p2?.hero} ${p2?.epithet} of ${p2?.faction}. Lately you and your ally have suffered great losses at the hand of your arch-rival ${e1.hero} from ${e1.faction}. Ever since they allied themselves with ${e2.hero} and ${e3.hero} it has been setback after setback. You must gather your strength and vanquish these ${cast.villains} before all is lost.`;

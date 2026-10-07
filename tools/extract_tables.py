@@ -120,10 +120,6 @@ CORRECTIONS = [
     (re.compile(r"\bBattling the AI cost\b"), "Battling the AI costs"),
     # The hero's gender is never established, so "his town" becomes neutral.
     (re.compile(r"\bmove towards his town\b"), "move towards their town"),
-    (
-        re.compile(r"Search \(2\) your discard pile on round 2 and 4"),
-        "Search (2) your discard pile at the end round 2 and 4",
-    ),
     (re.compile(r"\bNecroploish\b"), "Necropolis"),
     (re.compile(r"\bearthquack\b"), "earthquake"),
     (re.compile(r"\bcolapse\b"), "collapse"),
@@ -134,6 +130,9 @@ CORRECTIONS = [
     (re.compile(r"\bagianst\b"), "against"),
     (re.compile(r"\bExpert abilities does not\b"), "Expert abilities do not"),
     (re.compile(r"\bunits gains\b"), "units gain"),
+    (re.compile(r"\bacording\b"), "according"),
+    (re.compile(r"\bplace you faction\b"), "place your faction"),
+    (re.compile(r"\bThis AI army have\b"), "This AI army has"),
     # "Search(2)" and "search (2)" both appear; settle on one form.
     (re.compile(r"\b[Ss]earch\s*\((\d)\)"), r"Search (\1)"),
 
@@ -145,10 +144,15 @@ CORRECTIONS = [
 # Glossary rows that explain notation the app now draws as icons, so the entry
 # has nothing left to explain.
 SKIP_GLOSSARY = {"Unit T#F or T#P", ".+st", "T2P+st", "T7F"}
-
 # Options the app offers that the spreadsheets do not have a row for yet.
-CAMPAIGN_EXTRA_ENTRIES = {
-    "timedEvents": ["Remove black cubes from your starting tile on round 2."],
+CAMPAIGN_EXTRA_ENTRIES: dict[str, list[str]] = {}
+
+# AI Hero Specialities the app rebalances away from the sheet, by hero name.
+SPECIALITY_OVERRIDES = {
+    "Tarnum (Dungeon)": (
+        "Replace the two lowest cost non-bronze unit with Dragon Utopia Black "
+        "Dragons with an attack-stack-token on it."
+    ),
 }
 
 # Where the app deliberately departs from the sheet. Acts 2 and 3 have a fixed
@@ -157,6 +161,19 @@ CAMPAIGN_EXTRA_ENTRIES = {
 CAMPAIGN_ACT_OVERRIDES = {
     (2, "timed"): ("roll", "timedEvents"),
     (3, "timed"): ("roll", "timedEvents"),
+}
+
+# Some of the coop map layouts mark one starting tile in red, which the sheets
+# have no wording for because their own layouts never did.
+RED_BORDER_NOTE = (
+    "If the layout marks a starting tile with a red border, it cannot be chosen "
+    "— it is reserved for the enemy hero."
+)
+
+# Lines the app adds to an Act's briefing, keyed by (mode, act, field).
+CAMPAIGN_ACT_APPEND = {
+    ("coop", 2, "actInfo"): RED_BORDER_NOTE,
+    ("coop", 3, "actInfo"): RED_BORDER_NOTE,
 }
 
 FACTION_ORDER = [
@@ -280,7 +297,7 @@ CAMPAIGN_ACT_COLUMNS = [
 DATA_COLUMN_IDS = {letter: cid for letter, cid, _ in CAMPAIGN_COLUMNS}
 
 
-def campaign_acts(formulas, values, sheet):
+def campaign_acts(formulas, values, sheet, mode):
     """One entry per Act, saying for each field whether it is fixed, rolled, or
     built from the cast of characters.
 
@@ -299,6 +316,10 @@ def campaign_acts(formulas, values, sheet):
             formula = fs["%s%d" % (value_col, row)].value
             if not label and not text:
                 continue
+
+            extra = CAMPAIGN_ACT_APPEND.get((mode, n, name))
+            if extra:
+                text = (text + "\n" + extra) if text else extra
 
             kind, source = "text", None
             override = CAMPAIGN_ACT_OVERRIDES.get((n, name))
@@ -344,6 +365,7 @@ def campaign_reference(wb):
         name = clean(speciality["A%d" % r].value)
         if name:
             specialities[name] = clean(speciality["B%d" % r].value)
+    specialities.update(SPECIALITY_OVERRIDES)
 
     return {
         "heroes": by_faction,
@@ -392,8 +414,8 @@ def main(scen_path, camp_path):
         "epithets": column(story, "B", 40),
         "villainWords": column(story, "C", 40),
         "acts": {
-            "solo": campaign_acts(wb_formulas, wb, "Campaign "),
-            "coop": campaign_acts(wb_formulas, wb, "Coop campaign (WIP)"),
+            "solo": campaign_acts(wb_formulas, wb, "Campaign ", "solo"),
+            "coop": campaign_acts(wb_formulas, wb, "Coop campaign (WIP)", "coop"),
         },
         "reference": campaign_reference(wb),
     }

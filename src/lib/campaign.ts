@@ -260,6 +260,20 @@ export function generateCampaign(
       });
     }
 
+    // In coop, the leader beaten in Act 2 comes back as a second AI in Act 3,
+    // so there is one chasing each player.
+    if (mode === "coop" && rawAct.act === 3) {
+      const template = storyTemplate(mode, 3, "reinforcement");
+      if (template) {
+        const timedAt = fields.findIndex((f) => f.key === "timed");
+        fields.splice(timedAt + 1, 0, {
+          key: "reinforcement",
+          label: "Reinforcement",
+          text: template({ cast, speciality }),
+        });
+      }
+    }
+
     const mapField = rawAct.fields.map;
     let map: string | null = null;
     if (mapField?.kind === "map" && mapField.source) {
